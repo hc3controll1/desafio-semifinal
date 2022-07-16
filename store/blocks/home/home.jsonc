@@ -1,62 +1,45 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#deals",
+      "rich-text#rewards",
+      "responsive-layout.desktop#desktop",
+      "responsive-layout.tablet#tablet",
+      "responsive-layout.phone#phone",
       "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      "info-card#rewards",
+      "rich-text#brands",
+      "slider-layout#brands"
     ]
   },
-
-  "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+  "rich-text#rewards": {
     "props": {
-      "height": 570,
-      "preload": true,
-      "images": [
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
-        }
-      ]
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "🪙 Aqui suas compras valem pontos: [Programa de Recompensas](https://desafiosemifinalcrisdsc--controll.myvtex.com/)",
+      "font": "t-heading-5"
     }
   },
-  "slider-layout#demo-images": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
-    }
-  },
-
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "### **CONFIRA NOSSAS OFERTAS**",
       "blockClass": "shelfTitle"
     }
   },
   "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+    "children": [
+      "list-context.product-list#demo1"
+    ]
   },
   "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
@@ -73,32 +56,40 @@
       "blockClass": "shelf"
     }
   },
-
   "info-card#home": {
     "props": {
       "id": "info-card-home",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
+      "imageUrl": "https://i.ibb.co/7NfsmMk/ginastica-musculacao.jpg",
+      "headline": "Liquidação",
+      "subhead": "Kits de fitness para treinar em casa",
+      "callToActionText": "CONFIRA",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-home",
       "textAlignment": "center"
     }
   },
-
-  "rich-text#question": {
+  "info-card#rewards": {
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
+      "id": "info-card-rewards",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://img.freepik.com/vetores-gratis/mulher-plana-reembolsar-dinheiro-de-volta-para-compra-on-line_88138-818.jpg?t=st=1657897828~exp=1657898428~hmac=82e0e6d744995fadd1c82b1aba4adf80f57137d173568e8141036b532089485f&w=1380",
+      "textMode": "rich-text",
+      "headline": "## Programa de Recompensas",
+      "subhead": "🪙 Cada R$1 em compras vale 1 ponto.\n🪙 Acumule pontos e troque por produtos da loja.\n🪙 Simples assim!",
+      "callToActionText": "INSCREVA-SE",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-rewards",
+      "textAlignment": "center"
     }
   },
-
-  "rich-text#link": {
+  "rich-text#brands": {
     "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
+      "text": "#### **MARCAS**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   }
 }

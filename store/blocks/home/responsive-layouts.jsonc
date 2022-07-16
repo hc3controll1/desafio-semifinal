@@ -1,0 +1,93 @@
+{
+  "responsive-layout.desktop#desktop": {
+    "children": [
+      "list-context.image-list#home-desktop"
+    ]
+  },
+  "responsive-layout.tablet#tablet": {
+    "children": [
+      "list-context.image-list#home-tablet"
+    ]
+  },
+  "responsive-layout.phone#phone": {
+    "children": [
+      "list-context.image-list#home-phone"
+    ]
+  },
+  "list-context.image-list#home-desktop": {
+    "children": [
+      "slider-layout#home-images"
+    ],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "https://i.ibb.co/Lp6bgCh/bolas-de-tenis-2.jpg"
+        },
+        {
+          "image": "https://i.ibb.co/k3WmMfk/pessoas-jogando-volei-praia-2.jpg"
+        },
+        {
+          "image": "https://i.ibb.co/RHGGBgc/bola-futebol-gramado-2.jpg"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#home-tablet": {
+    "children": [
+      "slider-layout#home-images"
+    ],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "https://i.ibb.co/vPSHMH0/bolas-de-tenis-tablet-2.jpg"
+        },
+        {
+          "image": "https://i.ibb.co/9GpHJKz/pessoas-jogando-volei-praia-tablet-2.jpg"
+        },
+        {
+          "image": "https://i.ibb.co/cLP9X66/bola-futebol-gramado-tablet-2.jpg"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#home-phone": {
+    "children": [
+      "slider-layout#home-images"
+    ],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "https://i.ibb.co/nPk2rdr/bolas-de-tenis-mobile-2.jpg"
+        },
+        {
+          "image": "https://i.ibb.co/mcVyrb1/pessoas-jogando-volei-praia-mobile-2.jpg"
+        },
+        {
+          "image": "https://i.ibb.co/JcfgxkH/bola-futebol-gramado-mobile-2.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#home-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    }
+  }
+}
