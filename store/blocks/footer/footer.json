@@ -1,6 +1,9 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
   },
   "footer-layout.desktop": {
     "children": [
@@ -11,17 +14,66 @@
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "logo#desktop",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer",
-      "social-networks"
+      "logo#footer",
+      "vtex.menu@2.x:menu#info",
+      "vtex.menu@2.x:menu#account",
+      "vtex.menu@2.x:menu#footer-help"
     ],
     "props": {
       "blockClass": "menu-row",
       "paddingTop": 6,
-      "paddingBottom": 3
+      "paddingBottom": 3,
+      "colSizing": "auto"
+    }
+  },
+  "logo#footer": {
+    "props": {
+      "url": "https://i.ibb.co/Qp30mN6/loja-da-maria.jpg"
+    }
+  },
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "social-networks",
+      "accepted-payment-methods",
+      "flex-layout.row#secure",
+      "powered-by"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "paddingTop": 6,
+      "paddingBottom": 3,
+      "colSizing": "auto"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": [
+        "MasterCard",
+        "Visa",
+        "Diners Club"
+      ],
+      "showIColor": true
+    }
+  },
+  "flex-layout.row#secure": {
+    "children": [
+      "image#1",
+      "image#2"
+    ]
+  },
+  "image#1": {
+    "props": {
+      "src": "https://cdn-icons-png.flaticon.com/512/1256/1256202.png?w=826",
+      "height": 40
+    }
+  },
+  "image#2": {
+    "props": {
+      "src": "https://cdn-icons-png.flaticon.com/512/1224/1224138.png?w=826",
+      "height": 40
     }
   },
   "social-networks": {
@@ -46,21 +98,10 @@
       ]
     }
   },
-
-  "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
-    "props": {
-      "blockClass": "payment-methods"
-    }
-  },
-  "accepted-payment-methods": {
-    "props": {
-      "paymentMethods": ["MasterCard", "Visa", "Diners Club", "PayPal"]
-    }
-  },
-
   "flex-layout.row#footer-3-desktop": {
-    "children": ["rich-text#footer"],
+    "children": [
+      "rich-text#footer"
+    ],
     "props": {
       "blockClass": "credits"
     }
@@ -68,49 +109,79 @@
   "rich-text#footer": {
     "props": {
       "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-      "text": "© 2022 LOJA DA MARIA TODOS OS DIREITOS RESERVADOS. Loja da Maria ME – CNPJ 00.000.000/0000-00. Uma Rua, n.º 0 – Um Bairro – CEP. 00000-000 – Uma Cidade/ESTADO\nPolítica de Cookies | Política de Privacidade",
+      "textPosition": "CENTER",
+      "text": "© 2022 LOJA DA MARIA TODOS OS DIREITOS RESERVADOS. Loja da Maria ME – CNPJ 00.000.000/0000-00. Uma Rua, n.º 0 – Um Bairro – CEP. 00000-000 – Uma Cidade/ESTADO\n[Política de Cookies](#) | [Política de Privacidade](#)",
       "blockClass": "footer"
     }
   },
-
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
+      "flex-layout.row#2-footer-mobile",
+      "flex-layout.row#3-footer-mobile"
     ]
-  },
-  "flex-layout.row#2-footer-mobile": {
-    "children": ["flex-layout.col#footer-1-mobile"],
-    "props": {
-      "blockClass": "payment-methods",
-      "paddingTop": 4,
-      "paddingBottom": 4
-    }
-  },
-  "flex-layout.col#footer-1-mobile": {
-    "children": [
-      "accepted-payment-methods",
-      "social-networks",
-      "rich-text#footer-mobile"
-    ],
-    "props": {
-      "blockClass": "payment-methods",
-      "paddingTop": 4,
-      "paddingBottom": 4,
-      "rowGap": 4
-    }
   },
   "flex-layout.row#1-footer-mobile": {
     "props": {
       "paddingTop": 4,
       "paddingBottom": 4
     },
-    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+    "children": [
+      "vtex.menu@2.x:menu#footer-mobile"
+    ]
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": [
+      "flex-layout.col#1-footer-mobile",
+      "flex-layout.col#2-footer-mobile"
+    ],
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  
+  "flex-layout.col#1-footer-mobile": {
+    "children": [
+      "logo#footer-mobile",
+      "social-networks"
+    ],
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4,
+      "horizontalAlign":"center",
+      "verticalAlign": "center"
+    }
+  },
+  "logo#footer-mobile": {
+    "props": {
+        "url": "https://i.ibb.co/Qp30mN6/loja-da-maria.jpg",
+        "width": 180
+    }
+  },
+  "flex-layout.col#2-footer-mobile": {
+    "children": [
+      "accepted-payment-methods",
+      "flex-layout.row#secure",
+      "powered-by"
+    ],
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4,
+      "horizontalAlign":"center",
+      "verticalAlign": "center"
+    }
+  },
+  "flex-layout.row#3-footer-mobile": {
+    "children": ["rich-text#footer-mobile"]
   },
   "rich-text#footer-mobile": {
     "props": {
-      "text": "© 2022 LOJA DA MARIA TODOS OS DIREITOS RESERVADOS.\nLoja da Maria ME – CNPJ 00.000.000/0000-00\nUma Rua, n.º 0 – Um Bairro – CEP. 00000-000 – Uma Cidade/ESTADO\nPolítica de Cookies | Política de Privacidade",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "© 2022 LOJA DA MARIA TODOS OS DIREITOS RESERVADOS. Loja da Maria ME – CNPJ 00.000.000/0000-00. Uma Rua, n.º 0 – Um Bairro – CEP. 00000-000 – Uma Cidade/ESTADO\n[Política de Cookies](#) | [Política de Privacidade](#)",
       "blockClass": "footer"
     }
   }

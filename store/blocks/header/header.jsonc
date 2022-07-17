@@ -16,11 +16,6 @@
       "sticky-layout#desktop"
     ]
   },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
-  },
   "sticky-layout#desktop": {
     "props": {
       "blockClass": "sticky-header"
@@ -40,11 +35,52 @@
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#logo-desktop",
+      "logo#desktop",
       "search-bar",
-      "login",
+      "flex-layout.col#login-points",
       "minicart.v2"
     ]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://i.ibb.co/wJ2Jq7R/Loja-da-Maria-2.jpg",
+      "width": "150"
+    }
+  },
+  "search-bar": {
+    "props": {
+      "displayMode": "search-and-clear-buttons"
+    }
+  },
+  "flex-layout.col#login-points": {
+    "children": [
+      "flex-layout.row#login",
+      "flex-layout.row#points"
+    ],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.row#login": {
+    "children": ["login"]
+  },
+  "login": {
+    "props": {
+      "showIconProfile": true
+    }
+  },
+  "flex-layout.row#points": {
+    "children": ["rich-text#points"],
+    "props": {
+      "blockClass": "my-points"
+    }
+  },
+  "rich-text#points": {
+    "props": {
+      "text": "🪙 Meus pontos: 0"
+    }
   },
   "flex-layout.row#2-desktop": {
     "props": {
@@ -59,14 +95,6 @@
       "flex-layout.col#category-menu"
     ]
   },
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": [
-      "logo#desktop"
-    ]
-  },
   "flex-layout.col#category-menu": {
     "props": {
       "verticalAlign": "middle"
@@ -74,24 +102,6 @@
     "children": [
       "vtex.menu@2.x:menu#category-menu"
     ]
-  },
-  "logo#desktop": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "https://i.ibb.co/wJ2Jq7R/Loja-da-Maria-2.jpg",
-      "width": "150"
-    }
-  },
-  "login": {
-    "props": {
-      "showIconProfile": true
-    }
-  },
-  "search-bar": {
-    "props": {
-      "displayMode": "search-and-clear-buttons"
-    }
   },
   "header-layout.mobile": {
     "children": [
@@ -108,6 +118,7 @@
     "children": [
       "drawer",
       "logo#mobile",
+      "flex-layout.col#points-mobile",
       "login",
       "minicart.v2"
     ],
@@ -145,6 +156,17 @@
       "width": "100"
     }
   },
+  "flex-layout.col#points-mobile": {
+    "children": ["rich-text#points"],
+    "props": {
+      "blockClass": "my-points-mobile"
+    }
+  },
+  // "login#mobile": {
+  //   "props": {
+  //     "blockClass": "login-mobile"
+  //   }
+  // },
   "flex-layout.row#2-mobile": {
     "children": [
       "flex-layout.col#1-mobile"

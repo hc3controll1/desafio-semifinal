@@ -16,6 +16,7 @@
   },
   "rich-text#rewards": {
     "props": {
+      "blockClass": "rewards-program",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "🪙 Aqui suas compras valem pontos: [Programa de Recompensas](https://desafiosemifinalcrisdsc--controll.myvtex.com/)",
