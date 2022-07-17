@@ -2,16 +2,10 @@
   "store.home": {
     "blocks": [
       "rich-text#rewards",
-      "responsive-layout.desktop#desktop",
-      "responsive-layout.tablet#tablet",
-      "responsive-layout.phone#phone",
+      "flex-layout.row#rowSectionSlider",
       "__fold__",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf",
-      "info-card#home",
-      "info-card#rewards",
-      "rich-text#brands",
-      "slider-layout#brands"
+      "flex-layout.row#rowMain",
+      "flex-layout.row#footer"
     ]
   },
   "rich-text#rewards": {
@@ -22,30 +16,106 @@
       "font": "t-heading-5"
     }
   },
-  "rich-text#shelf-title": {
-    "props": {
-      "text": "### **CONFIRA AQUI**",
-      "blockClass": "shelfTitle"
-    }
-  },
-  "flex-layout.row#shelf": {
+  //Iniciando implementação do slider //
+  "flex-layout.row#rowSectionSlider": {
     "children": [
-      "flex-layout.col#shelf"
+      "flex-layout.col#colSectionSlider"
     ],
     "props": {
       "fullWidth": false,
       "horizontalAlign": "center"
     }
   },
-  "flex-layout.col#shelf": {
+  "flex-layout.col#colSectionSlider": {
     "children": [
-      "list-context.product-list#demo1"
+      "list-context.image-list#mainSlider"
+    ],
+    "props": {
+      "width": "90%"
+    }
+  },
+  "list-context.image-list#mainSlider": {
+    "children": [
+      "slider-layout#home-images"
+    ],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "https://i.ibb.co/Lp6bgCh/bolas-de-tenis-2.jpg"
+        },
+        {
+          "image": "https://i.ibb.co/k3WmMfk/pessoas-jogando-volei-praia-2.jpg"
+        },
+        {
+          "image": "https://i.ibb.co/RHGGBgc/bola-futebol-gramado-2.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#home-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    }
+  },
+  //Fim da implementação do slider //
+  "flex-layout.row#rowMain": {
+    "children": [
+      "flex-layout.col#colMain"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#colMain": {
+    "children": [
+      "rich-text#shelf-title",
+      "flex-layout.row#sectionShelf",
+      "info-card#home",
+      "info-card#rewards",
+      "rich-text#brands",
+      "slider-layout#brands"
     ],
     "props": {
       "width": "80%"
     }
   },
-  "list-context.product-list#demo1": {
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "### **CONFIRA NOSSAS OFERTAS**",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#sectionShelf": {
+    "children": [
+      "flex-layout.col#columnShelf"
+    ],
+    "props": {
+      "fullWidth": false,
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#columnShelf": {
+    "children": [
+      "list-context.product-list#listShelf"
+    ],
+    "props": {
+      "width": "80%"
+    }
+  },
+  "list-context.product-list#listShelf": {
     "blocks": [
       "product-summary.shelf"
     ],
