@@ -11,7 +11,7 @@
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#Products",
+      "logo#desktop",
       "vtex.menu@2.x:menu#footer-clothing",
       "vtex.menu@2.x:menu#footer-decoration",
       "vtex.menu@2.x:menu#footer-bags",
@@ -24,7 +24,6 @@
       "paddingBottom": 3
     }
   },
-
   "social-networks": {
     "props": {
       "socialNetworks": [
@@ -56,7 +55,7 @@
   },
   "accepted-payment-methods": {
     "props": {
-      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+      "paymentMethods": ["MasterCard", "Visa", "Diners Club", "PayPal"]
     }
   },
 
@@ -68,7 +67,9 @@
   },
   "rich-text#footer": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+      "text": "© 2022 LOJA DA MARIA TODOS OS DIREITOS RESERVADOS. Loja da Maria ME – CNPJ 00.000.000/0000-00. Uma Rua, n.º 0 – Um Bairro – CEP. 00000-000 – Uma Cidade/ESTADO\nPolítica de Cookies | Política de Privacidade",
       "blockClass": "footer"
     }
   },
@@ -109,7 +110,7 @@
   },
   "rich-text#footer-mobile": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
+      "text": "© 2022 LOJA DA MARIA TODOS OS DIREITOS RESERVADOS.\nLoja da Maria ME – CNPJ 00.000.000/0000-00\nUma Rua, n.º 0 – Um Bairro – CEP. 00000-000 – Uma Cidade/ESTADO\nPolítica de Cookies | Política de Privacidade",
       "blockClass": "footer"
     }
   }

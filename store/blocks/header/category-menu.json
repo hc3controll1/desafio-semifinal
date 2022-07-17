@@ -4,107 +4,308 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
+      "menu-item#category-sports",
+      "menu-item#category-electronics",
+      "menu-item#category-appliances",
+      "menu-item#category-fashion",
       "menu-item#more"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#category-sports": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-category-sports",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/sports/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Esportes",
+        "text": "Esportes"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#category-sports"
     ]
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
+  "vtex.menu@2.x:submenu#category-sports": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-apparel"
+      "vtex.menu@2.x:menu#category-sports"
     ]
   },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#category-sports": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#category-sports-soccer",
+      "menu-item#category-sports-voley",
+      "menu-item#category-sports-tennis",
+      "menu-item#category-sports-fitness"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+  "menu-item#category-sports-soccer": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "id": "menu-item-category-sports-soccer",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/sports/soccer/",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Futebol",
+        "text": "Futebol"
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#category-sports-voley": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "id": "menu-item-category-sports-voley",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/sports/voley/",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "tagTitle": "Vôlei",
+        "text": "Vôlei"
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "menu-item#category-sports-tennis": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
+      "id": "menu-item-category-sports-tennis",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/sports/tennis/",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "tagTitle": "Tênis",
+        "text": "Tênis"
       }
     }
   },
-  "menu-item#category-home": {
+  "menu-item#category-sports-fitness": {
     "props": {
-      "id": "menu-item-category-home",
+      "id": "menu-item-category-sports-fitness",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/sports/fitness/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Fitness",
+        "text": "Fitness"
       }
     }
   },
+  "menu-item#category-electronics": {
+    "props": {
+      "id": "menu-item-category-electronics",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics/",
+        "noFollow": false,
+        "tagTitle": "Eletrônicos",
+        "text": "Eletrônicos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-games"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-games": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-electronics"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-electronics": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-electronics-games",
+      "menu-item#category-electronics-computer"
+    ]
+  },
+  "menu-item#category-electronics-games": {
+    "props": {
+      "id": "menu-item-category-electronics-games",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics/games/",
+        "noFollow": false,
+        "tagTitle": "Consoles e Jogos",
+        "text": "Consoles e Jogos"
+      }
+    }
+  },
+  "menu-item#category-electronics-computer": {
+    "props": {
+      "id": "menu-item-category-electronics-computer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics/computer/",
+        "noFollow": false,
+        "tagTitle": "Informática",
+        "text": "Informática"
+      }
+    }
+  },
+
+  "menu-item#category-appliances": {
+    "props": {
+      "id": "menu-item-category-appliances",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/appliances/",
+        "noFollow": false,
+        "tagTitle": "Eletrodomésticos",
+        "text": "Eletrodomésticos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-appliances"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-appliances": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-appliances"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-appliances": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-appliances-kitchen",
+      "menu-item#category-appliances-laundry"
+    ]
+  },
+  "menu-item#category-appliances-kitchen": {
+    "props": {
+      "id": "menu-item-category-appliances-kitchen",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/appliances/kitchen/",
+        "noFollow": false,
+        "tagTitle": "Cozinha",
+        "text": "Cozinha"
+      }
+    }
+  },
+  "menu-item#category-appliances-laundry": {
+    "props": {
+      "id": "menu-item-category-appliances-laundry",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/appliances/laundry/",
+        "noFollow": false,
+        "tagTitle": "Lavanderia",
+        "text": "Lavanderia"
+      }
+    }
+  },
+
+  "menu-item#category-fashion": {
+    "props": {
+      "id": "menu-item-category-fashion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fashion/",
+        "noFollow": false,
+        "tagTitle": "Moda",
+        "text": "Moda"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-fashion"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-fashion": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-fashion"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-fashion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-fashion-female",
+      "menu-item#category-fashion-male"
+    ]
+  },
+  "menu-item#category-fashion-female": {
+    "props": {
+      "id": "menu-item-category-fashion-female",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fashion/female/",
+        "noFollow": false,
+        "tagTitle": "Feminina",
+        "text": "Feminina"
+      }
+    }
+  },
+  "menu-item#category-fashion-male": {
+    "props": {
+      "id": "menu-item-category-fashion-male",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fashion/male/",
+        "noFollow": false,
+        "tagTitle": "Masculina",
+        "text": "Masculina"
+      }
+    }
+  },
+
   "menu-item#more": {
     "props": {
       "id": "menu-item-custom-sale",
@@ -115,8 +316,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
+        "tagTitle": "Mais",
+        "text": "Mais"
       }
     },
     "blocks": [
@@ -124,27 +325,18 @@
     ]
   },
   "vtex.menu@2.x:submenu#more": {
-    "props": {
-      "width": "100%"
-    },
     "children": [
       "flex-layout.row#menu-more"
     ]
   },
   "flex-layout.row#menu-more": {
     "children": [
-      "flex-layout.col#menu-more-1",
-      "flex-layout.col#menu-more-2"
+      "flex-layout.col#menu-more"
     ]
   },
-  "flex-layout.col#menu-more-1": {
+  "flex-layout.col#menu-more": {
     "children": [
       "vtex.menu@2.x:menu#more"
-    ]
-  },
-  "flex-layout.col#menu-more-2": {
-    "children": [
-      "info-card#home"
     ]
   },
   "vtex.menu@2.x:menu#more": {
@@ -153,7 +345,8 @@
     },
     "children": [
       "menu-item#about-us",
-      "menu-item#faq"
+      "menu-item#faq",
+      "menu-item#contact-us"
     ]
   },
   "menu-item#about-us": {
@@ -166,8 +359,8 @@
         "type": "internal",
         "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "About us",
-        "text": "About us"
+        "tagTitle": "Quem somos",
+        "text": "Quem somos"
       }
     }
   },
@@ -181,8 +374,8 @@
         "type": "internal",
         "href": "/faq",
         "noFollow": true,
-        "tagTitle": "FAQ",
-        "text": "FAQ"
+        "tagTitle": "Dúvidas frequentes",
+        "text": "Dúvidas frequentes"
       }
     }
   },
@@ -196,8 +389,8 @@
         "type": "internal",
         "href": "/contact-us",
         "noFollow": true,
-        "tagTitle": "Contact Us",
-        "text": "Contact Us"
+        "tagTitle": "Contato",
+        "text": "Contato"
       }
     }
   }
