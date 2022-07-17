@@ -1,3 +1,4 @@
+//Voltando ao estado inicial => ec17ca6
 {
   "store.home": {
     "blocks": [
@@ -25,14 +26,26 @@
   },
   "rich-text#shelf-title": {
     "props": {
-      "text": "### **CONFIRA NOSSAS OFERTAS**",
+      "text": "### **CONFIRA AQUI**",
       "blockClass": "shelfTitle"
     }
   },
   "flex-layout.row#shelf": {
     "children": [
+      "flex-layout.col#shelf"
+    ],
+    "props": {
+      "fullWidth": false,
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#shelf": {
+    "children": [
       "list-context.product-list#demo1"
-    ]
+    ],
+    "props": {
+      "width": "80%"
+    }
   },
   "list-context.product-list#demo1": {
     "blocks": [
