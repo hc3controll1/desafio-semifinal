@@ -1,10 +1,14 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
   },
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-social-desktop",
       "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop"
     ]
@@ -14,17 +18,14 @@
       "vtex.menu@2.x:menu#Products",
       "vtex.menu@2.x:menu#footer-clothing",
       "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer",
-      "social-networks"
+      "vtex.menu@2.x:menu#footer-bags"
     ],
     "props": {
       "blockClass": "menu-row",
-      "paddingTop": 6,
+      "paddingTop": 3,
       "paddingBottom": 3
     }
   },
-
   "social-networks": {
     "props": {
       "socialNetworks": [
@@ -47,21 +48,32 @@
       ]
     }
   },
-
+  "flex-layout.row#footer-social-desktop": {
+    "children": [
+      "social-networks"
+    ]
+  },
   "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
+    "children": [
+      "accepted-payment-methods"
+    ],
     "props": {
       "blockClass": "payment-methods"
     }
   },
   "accepted-payment-methods": {
     "props": {
-      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+      "paymentMethods": [
+        "MasterCard",
+        "Visa",
+        "Diners Club"
+      ]
     }
   },
-
   "flex-layout.row#footer-3-desktop": {
-    "children": ["rich-text#footer"],
+    "children": [
+      "rich-text#footer"
+    ],
     "props": {
       "blockClass": "credits"
     }
@@ -72,7 +84,6 @@
       "blockClass": "footer"
     }
   },
-
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#1-footer-mobile",
@@ -80,7 +91,9 @@
     ]
   },
   "flex-layout.row#2-footer-mobile": {
-    "children": ["flex-layout.col#footer-1-mobile"],
+    "children": [
+      "flex-layout.col#footer-1-mobile"
+    ],
     "props": {
       "blockClass": "payment-methods",
       "paddingTop": 4,
@@ -105,7 +118,9 @@
       "paddingTop": 4,
       "paddingBottom": 4
     },
-    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+    "children": [
+      "vtex.menu@2.x:menu#footer-mobile"
+    ]
   },
   "rich-text#footer-mobile": {
     "props": {
