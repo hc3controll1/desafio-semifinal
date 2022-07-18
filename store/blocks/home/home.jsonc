@@ -58,7 +58,7 @@
       "info-card#home",
       "info-card#rewards",
       "rich-text#brands",
-      "slider-layout#brands"
+      "flex-layout.row#brands"
     ],
     "props": {
       "width": "90%"
@@ -142,6 +142,14 @@
       "text": "#### **MARCAS**",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#brands": {
+    "children": [
+      "slider-layout#brands"
+    ],
+    "props": {
+      "marginBottom": 9
     }
   }
 }

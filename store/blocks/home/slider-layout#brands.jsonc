@@ -12,8 +12,13 @@
     ],
     "props": {
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "showPaginationDots": "never",
+      "showNavigationArrows": "always",
+      "showPaginationDots": "desktopOnly",
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
       "autoplay": {
         "timeout": 5000
       }
