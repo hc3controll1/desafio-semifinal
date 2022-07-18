@@ -34,6 +34,10 @@
   background-color: #f0f0f0;
 }
 
+.flexRowContent--pointsRow {
+  background-color: #f0f0f0;
+}
+
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
   color: #ffffff;
   font-size: 14px;
@@ -110,6 +114,10 @@
 
 .flexRow--credits {
   background-color: #F7F7F7;
+}
+
+.flexRow--pointsRow {
+  background-color: #f0f0f0;
 }
 
 .flexColChild--secureBadge {
