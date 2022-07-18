@@ -23,7 +23,7 @@
         "noFollow": false,
         "tagTitle": "Esportes",
         "text": "Esportes"
-      }
+      } 
     },
     "blocks": [
       "vtex.menu@2.x:submenu#category-sports"

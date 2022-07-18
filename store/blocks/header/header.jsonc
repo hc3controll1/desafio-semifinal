@@ -33,13 +33,14 @@
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true,
-      "colGap": 10
+      "colGap": 8
     },
     "children": [
       "logo#desktop",
       "search-bar",
-      "flex-layout.col#login-points",
-      "minicart.v2"
+      "minicart.v2",
+      "flex-layout.col#points",
+      "login"
     ]
   },
   "logo#desktop": {
@@ -47,28 +48,29 @@
       "title": "Logo",
       "href": "/",
       "url": "https://i.ibb.co/wJ2Jq7R/Loja-da-Maria-2.jpg",
-      "width": "150"
+      "width": "180",
+      "height": "80"
     }
   },
+
   "search-bar": {
     "props": {
-      "displayMode": "search-and-clear-buttons"
+      "displayMode": "search-and-clear-buttons",
+      "autocompleteFullWidth": false,
+      "autocompleteAlignment": "center",
+      "maxWidth": 5000
     }
   },
-  "flex-layout.col#login-points": {
+
+  "flex-layout.col#points": {
     "children": [
-      "flex-layout.row#login",
       "flex-layout.row#points"
     ],
     "props": {
       "verticalAlign": "middle"
     }
   },
-  "flex-layout.row#login": {
-    "children": [
-      "login"
-    ]
-  },
+
   "login": {
     "props": {
       "showIconProfile": true
