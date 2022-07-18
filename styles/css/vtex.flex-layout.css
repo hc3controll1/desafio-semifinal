@@ -4,6 +4,7 @@
 }
 
 @media screen and (min-width: 40em) {
+
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 1rem;
@@ -11,6 +12,7 @@
 }
 
 @media screen and (min-width: 80rem) {
+
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 0.25rem;
@@ -29,6 +31,10 @@
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
+  background-color: #f0f0f0;
+}
+
+.flexRowContent--pointsRow {
   background-color: #f0f0f0;
 }
 
@@ -95,4 +101,25 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+
+/*Código inserido por Victor*/
+.flexRow--menu-row {
+  background-color: #F7F7F7;
+}
+
+.flexRow--desktopFooter-2 {
+  background-color: #F7F7F7;
+}
+
+.flexRow--credits {
+  background-color: #F7F7F7;
+}
+
+.flexRow--pointsRow {
+  background-color: #f0f0f0;
+}
+
+.flexColChild--secureBadge {
+  max-width: 50%;
 }

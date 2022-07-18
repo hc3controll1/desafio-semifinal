@@ -3,27 +3,52 @@
     "blocks": [
       "footer-layout.desktop",
       "footer-layout.mobile"
-    ]
+    ],
+    "props": {}
   },
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop"
-    ]
+    ],
+    "props": {
+      "blackClass": "footerSection"
+    }
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "logo#footer",
       "vtex.menu@2.x:menu#info",
       "vtex.menu@2.x:menu#account",
-      "vtex.menu@2.x:menu#footer-help"
+      "vtex.menu@2.x:menu#footer-help",
+      "flex-layout.col#network"
     ],
     "props": {
       "blockClass": "menu-row",
-      "paddingTop": 6,
+      "marginTop": 5,
+      "paddingTop": 7,
       "paddingBottom": 3,
       "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#network": {
+    "children": [
+      "rich-text#network",
+      "social-networks",
+      "rich-text#payment",
+      "accepted-payment-methods"
+    ]
+  },
+  "rich-text#network": {
+    "props": {
+      "text": "REDES SOCIAIS",
+      "blockClass": "networkFooter"
+    }
+  },
+  "rich-text#payment": {
+    "props": {
+      "text": "FORMAS DE PAGAMENTO",
+      "blockClass": "networkFooter"
     }
   },
   "logo#footer": {
@@ -33,8 +58,6 @@
   },
   "flex-layout.row#footer-2-desktop": {
     "children": [
-      "social-networks",
-      "accepted-payment-methods",
       "flex-layout.row#secure",
       "powered-by"
     ],
@@ -45,7 +68,9 @@
       "preventVerticalStretch": true,
       "paddingTop": 6,
       "paddingBottom": 3,
-      "colSizing": "auto"
+      "colSizing": "auto",
+      "colJustify": "around",
+      "blockClass": "desktopFooter-2"
     }
   },
   "accepted-payment-methods": {
@@ -117,8 +142,10 @@
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile",
-      "flex-layout.row#3-footer-mobile"
+      "flex-layout.row#mobileNetwork",
+      "flex-layout.row#paymentMobile",
+      "flex-layout.row#mobileSecure",
+      "flex-layout.row#poweredBy"
     ]
   },
   "flex-layout.row#1-footer-mobile": {
@@ -127,55 +154,61 @@
       "paddingBottom": 4
     },
     "children": [
+      "logo#footer-mobile",
       "vtex.menu@2.x:menu#footer-mobile"
     ]
   },
-  "flex-layout.row#2-footer-mobile": {
+  "flex-layout.row#mobileNetwork": {
     "children": [
-      "flex-layout.col#1-footer-mobile",
-      "flex-layout.col#2-footer-mobile"
+      "social-networks"
     ],
     "props": {
-      "paddingTop": 4,
-      "paddingBottom": 4
+      "paddingTop": 8,
+      "paddingBottom": 4,
+      "horizontalAlign": "center"
     }
   },
-  
-  "flex-layout.col#1-footer-mobile": {
+  "flex-layout.row#paymentMobile": {
     "children": [
-      "logo#footer-mobile",
-      "social-networks"
+      "accepted-payment-methods"
     ],
     "props": {
       "paddingTop": 4,
       "paddingBottom": 4,
-      "rowGap": 4,
-      "horizontalAlign":"center",
-      "verticalAlign": "center"
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#mobileSecure": {
+    "children": [
+      "image#1",
+      "image#2"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "left"
+    }
+  },
+  "flex-layout.row#poweredBy": {
+    "children": [
+      "powered-by"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "left"
     }
   },
   "logo#footer-mobile": {
     "props": {
-        "url": "https://i.ibb.co/Qp30mN6/loja-da-maria.jpg",
-        "width": 180
-    }
-  },
-  "flex-layout.col#2-footer-mobile": {
-    "children": [
-      "accepted-payment-methods",
-      "flex-layout.row#secure",
-      "powered-by"
-    ],
-    "props": {
-      "paddingTop": 4,
-      "paddingBottom": 4,
-      "rowGap": 4,
-      "horizontalAlign":"center",
-      "verticalAlign": "center"
+      "url": "https://i.ibb.co/Qp30mN6/loja-da-maria.jpg",
+      "width": "100%"
     }
   },
   "flex-layout.row#3-footer-mobile": {
-    "children": ["rich-text#footer-mobile"]
+    "children": [
+      "rich-text#footer-mobile"
+    ]
   },
   "rich-text#footer-mobile": {
     "props": {

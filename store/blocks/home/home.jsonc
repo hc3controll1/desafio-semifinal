@@ -3,16 +3,15 @@
   "store.home": {
     "blocks": [
       "rich-text#rewards",
-      "responsive-layout.desktop#desktop",
-      "responsive-layout.tablet#tablet",
-      "responsive-layout.phone#phone",
+      "flex-layout.row#rowSectionSlider",
       "__fold__",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf",
-      "info-card#home",
-      "info-card#rewards",
-      "rich-text#brands",
-      "slider-layout#brands"
+      "flex-layout.row#rowMain"
+      // "rich-text#shelf-title",
+      // "flex-layout.row#shelf",
+      // "info-card#home",
+      // "info-card#rewards",
+      // "rich-text#brands",
+      // "slider-layout#brands"
     ]
   },
   "rich-text#rewards": {
@@ -24,30 +23,69 @@
       "font": "t-heading-5"
     }
   },
-  "rich-text#shelf-title": {
-    "props": {
-      "text": "### **CONFIRA AQUI**",
-      "blockClass": "shelfTitle"
-    }
-  },
-  "flex-layout.row#shelf": {
+  //Iniciando a implementação do Slider Responsivo
+  "flex-layout.row#rowSectionSlider": {
     "children": [
-      "flex-layout.col#shelf"
+      "flex-layout.col#colSectionSlider"
     ],
     "props": {
       "fullWidth": false,
       "horizontalAlign": "center"
     }
   },
-  "flex-layout.col#shelf": {
+  "flex-layout.col#colSectionSlider": {
     "children": [
-      "list-context.product-list#demo1"
+      "responsive-layout.desktop#desktop",
+      "responsive-layout.tablet#tablet",
+      "responsive-layout.phone#phone"
+    ]
+  },
+  //Fim do slider responsivo
+  //Depois do slider, vamos inserir a rowMain e a columnMain para controlar melhor as margens laterais
+  "flex-layout.row#rowMain": {
+    "children": [
+      "flex-layout.col#colMain"
     ],
     "props": {
-      "width": "80%"
+      "horizontalAlign": "center",
+      "fullWidth": false
     }
   },
-  "list-context.product-list#demo1": {
+  "flex-layout.col#colMain": {
+    "children": [
+      "rich-text#shelf-title",
+      "flex-layout.row#sectionShelf",
+      "info-card#home",
+      "info-card#rewards",
+      "rich-text#brands",
+      "flex-layout.row#brands"
+    ],
+    "props": {
+      "width": "90%"
+    }
+  },
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "### **CONFIRA NOSSAS OFERTAS**",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#sectionShelf": {
+    "children": [
+      "flex-layout.col#columnShelf"
+    ],
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#columnShelf": {
+    "children": [
+      "list-context.product-list#listShelf"
+    ],
+    "props": {}
+  },
+  "list-context.product-list#listShelf": {
     "blocks": [
       "product-summary.shelf"
     ],
@@ -104,6 +142,14 @@
       "text": "#### **MARCAS**",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#brands": {
+    "children": [
+      "slider-layout#brands"
+    ],
+    "props": {
+      "marginBottom": 9
     }
   }
 }
