@@ -33,14 +33,19 @@
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true,
+      "colSizing": "auto",
+      "paddingBottom": 0,
+      "paddingTop": 0,
+      "marginBottom": 0,
+      "colJustify": "around",
       "colGap": 8
     },
     "children": [
       "logo#desktop",
       "search-bar",
-      "minicart.v2",
       "flex-layout.col#points",
-      "login"
+      "login",
+      "minicart.v2"
     ]
   },
   "logo#desktop": {
@@ -58,7 +63,7 @@
       "displayMode": "search-and-clear-buttons",
       "autocompleteFullWidth": false,
       "autocompleteAlignment": "center",
-      "maxWidth": 5000
+      "maxWidth": 10000
     }
   },
 
