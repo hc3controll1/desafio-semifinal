@@ -6,15 +6,16 @@
           "textPosition": "CENTER",
           "text": " #### Cristiane dos Santos Costa",
           "font": "t-heading-5"
-        }
-      },
+      }
+    },
 
     "rich-text#dev-description-1": {
         "props":{
             "text": "*Neurocientista pela UFABC com foco em \n pesquisa acadêmica em biologia. \nDesenvolvedora Web Front-end.*",
             "textAlignment": "left",
             "textPosition": "left",
-            "font": "t-heading-10"
+            "font": "t-heading-10",
+            "url":"https://www.linkedin.com/in/cristianedsc/"
             //https://www.linkedin.com/in/cristianedsc/
         }
     },
@@ -44,7 +45,7 @@
           "blockClass": "text-dev-3",
           "textAlignment": "CENTER",
           "textPosition": "CENTER",
-          "text": " #### Flávio Gabriel de Andrade Viana",
+          "text": " ##### Flávio Gabriel de Andrade Viana",
           "font": "t-heading-5"
         }
     },
@@ -91,7 +92,7 @@
 
     "rich-text#dev-description-5": {
         "props":{
-            "text": "*Engenheiro mecânico com ênfase em engenharia mecatrônica*.\n *Desenvolvedor Web Front-end.*",
+            "text": "*Engenheiro mecânico com ênfase em engenharia mecatrônica*. \n *Desenvolvedor Web Front-end.*",
             "textAlignment": "left",
             "textPosition": "left",
             "font": "t-heading-10"
@@ -104,7 +105,7 @@
           "blockClass": "text-dev-6",
           "textAlignment": "CENTER",
           "textPosition": "CENTER",
-          "text": " #### Andre Ricardo de Oliveira Silva",
+          "text": " ##### Andre Ricardo de Oliveira Silva",
           "font": "t-heading-5"
         }
     },
@@ -124,7 +125,7 @@
           "blockClass": "text-dev-7",
           "textAlignment": "CENTER",
           "textPosition": "CENTER",
-          "text": " #### Walter Santos de Andrade Souza", 
+          "text": " ##### Walter Santos de Andrade Souza", 
           "font": "t-heading-5"
         }
     },

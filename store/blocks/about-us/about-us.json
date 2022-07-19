@@ -1,6 +1,6 @@
 {
   "store.custom#about-us": {
-    "blocks": ["info-card#about-us-1", "info-card#about-us-2", "__fold__", "rich-text#about-us-squad", "flex-layout.row#squad-1", "flex-layout.row#squad-2"]
+    "blocks": ["info-card#about-us-1", "info-card#about-us-2", "__fold__", "rich-text#about-us-squad", "flex-layout.row#squad-1", "flex-layout.row#squad-2", "flex-layout.row#squad-3"]
   },
 
   "info-card#about-us-1":{
@@ -10,8 +10,8 @@
       "textPosition": "left",
       "textAlignment": "right",
       "imageUrl": "https://i.ibb.co/QCMN2TZ/aboutus-desktop.jpg",
-      "headline": "Sua jornada começa aqui!",
-      "subhead": "Você está na Loja da Maria, o melhor lugar para encontrar produtos diversos e com qualidade iniqualável. \n Você sabia que nós trabalhamos apenas com os fornecedores mais confiáveis do mercado? Pois é! Isso significa que todos os produtos que você encontrar no nosso site certamente serão da mais alta qualidade. Vá em frente!",
+      "headline": "Bem-vindo a Loja da Maria!",
+      "subhead": "Você está na Loja da Maria, o melhor lugar para encontrar produtos diversos e com qualidade inigualável. \n Você sabia que nós trabalhamos apenas com os fornecedores mais confiáveis do mercado? Pois é! Isso significa que todos os produtos que você encontrar no nosso site certamente serão da mais alta qualidade. Vá em frente!",
       "callToActionMode": "disable"
     }
   },
@@ -43,35 +43,47 @@
     "children": [
       "flex-layout.col#squad-1", "flex-layout.col#squad-2", "flex-layout.col#squad-3"],
     "props":{
-      "blockClass": "container-squad",
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
+      "blockClass": "container-squad1",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
+      "horizontalAlign": "center",
       "fullWidth": true,
-      "colSizing": "auto",
       "paddingBottom": 0,
       "paddingTop": 0,
       "marginBottom": 0,
-      "colJustify": "around",
+      "colJustify": "between",
       "colGap": 8
     }
   },
 
   "flex-layout.row#squad-2": {
-    "children": ["flex-layout.col#squad-4","flex-layout.col#squad-5","flex-layout.col#squad-6","flex-layout.col#squad-7"],
+    "children": ["flex-layout.col#squad-4","flex-layout.col#squad-5","flex-layout.col#squad-6"],
     "props":{
-      "blockClass": "container-squad",
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
+      "blockClass": "container-squad2",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
+      "horizontalAlign": "center",
       "fullWidth": true,
-      "colSizing": "auto",
       "paddingBottom": 0,
       "paddingTop": 0,
       "marginBottom": 0,
-      "colJustify": "around",
+      "colJustify": "between",
+      "colGap": 8
+    }
+  },
+
+  "flex-layout.row#squad-3": {
+    "children": ["flex-layout.col#squad-7"],
+    "props":{
+      "blockClass": "container-squad3",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "horizontalAlign": "center",
+      "fullWidth": true,
+      "paddingBottom": 0,
+      "paddingTop": 0,
+      "marginBottom": 0,
+      "colJustify": "between",
       "colGap": 8
     }
   }

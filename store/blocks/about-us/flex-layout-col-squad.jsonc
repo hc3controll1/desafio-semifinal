@@ -2,56 +2,63 @@
   "flex-layout.col#squad-1": {
     "children": ["image#dev1","rich-text#dev1","rich-text#dev-description-1"],
     "props":{
+      "blockClass": "col-squad-1",
       "horizontalAlign": "center",
-      "verticalAlign": "center"
+      "verticalAlign": "middle"
     }
   },
 
   "flex-layout.col#squad-2": {
     "children": ["image#dev2","rich-text#dev2","rich-text#dev-description-2"],
     "props":{
+      "blockClass": "col-squad-2",
       "horizontalAlign": "center",
-      "verticalAlign": "center"
+      "verticalAlign": "middle"
     }
   },
 
   "flex-layout.col#squad-3": {
     "children": ["image#dev3","rich-text#dev3","rich-text#dev-description-3"],
     "props":{
+      "blockClass": "col-squad-3",
       "horizontalAlign": "center",
-      "verticalAlign": "center"
+      "verticalAlign": "middle"
     }
   },
 
   "flex-layout.col#squad-4": {
     "children": ["image#dev4","rich-text#dev4","rich-text#dev-description-4"],
     "props":{
+      "blockClass": "col-squad-4",
       "horizontalAlign": "center",
-      "verticalAlign": "center"
+      "verticalAlign": "middle"
     }
   },
 
   "flex-layout.col#squad-5": {
     "children": ["image#dev5","rich-text#dev5","rich-text#dev-description-5"],
     "props":{
+      "blockClass": "col-squad-5",
       "horizontalAlign": "center",
-      "verticalAlign": "center"
+      "verticalAlign": "middle"
     }
   },
 
   "flex-layout.col#squad-6": {
     "children": ["image#dev6","rich-text#dev6","rich-text#dev-description-6"],
     "props":{
+      "blockClass": "col-squad-6",
       "horizontalAlign": "center",
-      "verticalAlign": "center"
+      "verticalAlign": "middle"
     }
   },
 
   "flex-layout.col#squad-7": {
     "children": ["image#dev7","rich-text#dev7","rich-text#dev-description-7"],
     "props":{
+      "blockClass": "col-squad-7",
       "horizontalAlign": "center",
-      "verticalAlign": "center"
+      "verticalAlign": "middle"
     }
   }
 }
