@@ -1,9 +1,24 @@
+.imageElement--carousel {
+  border-radius: 6px;
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 50%);
+
+  margin: 20px;
+}
+
+.slideChildrenContainer--carousel {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.paginationDotsContainer--carousel {
+  margin-bottom: -0.5rem !important;
+}
+
 .sliderLayoutContainer {
   justify-content: center;
 }
 
 .sliderLayoutContainer--carousel {
-  background-color: #F0F0F0;
   min-height: 450px;
 }
 

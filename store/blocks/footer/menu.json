@@ -5,8 +5,7 @@
     },
     "children": [
       "menu-item#info",
-      "menu-item#about-us",
-      "menu-item#work"
+      "menu-item#about-us"
     ]
   },
   "menu-item#info": {
@@ -28,25 +27,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/about-us",
         "noFollow": false,
         "tagTitle": "Quem Somos",
         "text": "Quem Somos"
-      }
-    }
-  },
-  "menu-item#work": {
-    "props": {
-      "id": "menu-item-work",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Trabalhe Conosco",
-        "text": "Trabalhe Conosco"
       }
     }
   },
@@ -57,8 +41,7 @@
     "children": [
       "menu-item#account",
       "menu-item#my-account",
-      "menu-item#my-orders",
-      "menu-item#my-points"
+      "menu-item#my-orders"
     ]
   },
   "menu-item#account": {
@@ -80,7 +63,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/account",
         "noFollow": false,
         "tagTitle": "Meu cadastro",
         "text": "Meu cadastro"
@@ -95,25 +78,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/account#/orders",
         "noFollow": false,
         "tagTitle": "Meus pedidos",
         "text": "Meus pedidos"
-      }
-    }
-  },
-  "menu-item#my-points": {
-    "props": {
-      "id": "menu-item-my-points",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Meus pontos",
-        "text": "Meus pontos"
       }
     }
   },
@@ -123,8 +91,7 @@
     },
     "children": [
       "menu-item#help",
-      "menu-item#delivery",
-      "menu-item#return",
+      "menu-item#faq",
       "menu-item#customer-service"
     ]
   },
@@ -149,40 +116,25 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/contact",
         "noFollow": true,
         "tagTitle": "Fale conosco",
         "text": "Fale conosco"
       }
     }
   },
-  "menu-item#delivery": {
+  "menu-item#faq": {
     "props": {
-      "id": "menu-item-delivery",
+      "id": "menu-item-faq",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/faq",
         "noFollow": true,
-        "tagTitle": "Entrega",
-        "text": "Entrega"
-      }
-    }
-  },
-  "menu-item#return": {
-    "props": {
-      "id": "menu-item-return",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "Troca e Devolução",
-        "text": "Troca e Devolução"
+        "tagTitle": "Dúvidas frequentes",
+        "text": "Dúvidas frequentes"
       }
     }
   },
@@ -222,8 +174,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#about-us",
-      "menu-item#work"
+      "menu-item#about-us"
     ]
   },
   "menu-item#help-mobile": {
@@ -247,8 +198,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#delivery",
-      "menu-item#return",
+      "menu-item#faq",
       "menu-item#customer-service"
     ]
   },
@@ -274,8 +224,7 @@
     },
     "children": [
       "menu-item#my-account",
-      "menu-item#my-orders",
-      "menu-item#my-points"
+      "menu-item#my-orders"
     ]
   }
 }

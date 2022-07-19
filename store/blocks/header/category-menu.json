@@ -4,10 +4,37 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
+      "menu-item#category-rewards",
       "menu-item#category-shirts",
       "menu-item#category-games",
       "menu-item#category-mugs",
       "menu-item#about-us"
+    ]
+  },
+  "menu-item#category-rewards": {
+    "props": {
+      "id": "menu-item-category-rewards",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Programa de Recompensas",
+        "text": "Programa de Recompensas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-rewards"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-rewards": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "info-card#rewards"
     ]
   },
   "menu-item#category-shirts": {
@@ -22,7 +49,7 @@
         "noFollow": false,
         "tagTitle": "Camisetas",
         "text": "Camisetas"
-      } 
+      }
     },
     "blocks": [
       "vtex.menu@2.x:submenu#category-shirts"
@@ -41,7 +68,6 @@
       "orientation": "vertical"
     }
   },
- 
   "menu-item#category-games": {
     "props": {
       "id": "menu-item-category-games",
@@ -73,8 +99,6 @@
       "orientation": "vertical"
     }
   },
-  
-
   "menu-item#category-mugs": {
     "props": {
       "id": "menu-item-category-mugs",
@@ -106,8 +130,6 @@
       "orientation": "vertical"
     }
   },
- 
-
   "menu-item#about-us": {
     "props": {
       "id": "menu-item-about-us",

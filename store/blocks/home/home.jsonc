@@ -2,26 +2,10 @@
 {
   "store.home": {
     "blocks": [
-      "rich-text#rewards",
       "flex-layout.row#rowSectionSlider",
       "__fold__",
       "flex-layout.row#rowMain"
-      // "rich-text#shelf-title",
-      // "flex-layout.row#shelf",
-      // "info-card#home",
-      // "info-card#rewards",
-      // "rich-text#brands",
-      // "slider-layout#brands"
     ]
-  },
-  "rich-text#rewards": {
-    "props": {
-      "blockClass": "rewards-program",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "🪙 Aqui suas compras valem pontos: [Programa de Recompensas](https://desafiosemifinalcrisdsc--controll.myvtex.com/)",
-      "font": "t-heading-5"
-    }
   },
   //Iniciando a implementação do Slider Responsivo
   "flex-layout.row#rowSectionSlider": {
@@ -38,7 +22,11 @@
       "responsive-layout.desktop#desktop",
       "responsive-layout.tablet#tablet",
       "responsive-layout.phone#phone"
-    ]
+    ],
+    "props": {
+      "marginRight": 5,
+      "marginLeft": 5
+    }
   },
   //Fim do slider responsivo
   //Depois do slider, vamos inserir a rowMain e a columnMain para controlar melhor as margens laterais
@@ -130,9 +118,9 @@
       "imageUrl": "https://img.freepik.com/vetores-gratis/mulher-plana-reembolsar-dinheiro-de-volta-para-compra-on-line_88138-818.jpg?t=st=1657897828~exp=1657898428~hmac=82e0e6d744995fadd1c82b1aba4adf80f57137d173568e8141036b532089485f&w=1380",
       "textMode": "rich-text",
       "headline": "## Programa de Recompensas",
-      "subhead": "Cada R$1 em compras vale 1 ponto.\n🪙 Acumule pontos e troque por produtos da loja.\n🪙 Simples assim!",
-      "callToActionText": "INSCREVA-SE",
-      "callToActionUrl": "/sale/d",
+      "subhead": "🪙 Cada R$1 em compras vale 1 ponto.\n🪙 Acumule pontos e troque por produtos da loja.\n🪙 Simples assim!",
+      "callToActionText": "CADASTRE-SE PARA PARTICIPAR",
+      "callToActionUrl": "/login",
       "blockClass": "info-card-rewards",
       "textAlignment": "center"
     }

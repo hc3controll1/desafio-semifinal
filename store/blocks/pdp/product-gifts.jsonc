@@ -28,13 +28,13 @@
   },
   "rich-text#product-gifts": {
     "props": {
-      "text": "**+ GIFT**"
+      "text": "**+ BRINDE**"
     }
   },
   "gift-text": {
     "props": {
       "blockClass": "default",
-      "text": "{exceedingItems, plural, =0{} one {+ # gift} other {+ # gifts}}"
+      "text": "{exceedingItems, plural, =0{} one {+ # brinde} other {+ # brindes}}"
     }
   },
   "product-gift-list": {

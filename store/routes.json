@@ -1,11 +1,14 @@
 {
   "store.custom#about-us": {
-    "path": "/about-us"
+    "path": "/about-us",
+    "isSitemapEntry": "true"
   },
   "store.custom#faq": {
-    "path": "/faq"
+    "path": "/faq",
+    "isSitemapEntry": "true"
   },
   "store.custom#contact-us": {
-    "path": "/contact-us"
+    "path": "/contact-us",
+    "isSitemapEntry": "true"
   }
 }

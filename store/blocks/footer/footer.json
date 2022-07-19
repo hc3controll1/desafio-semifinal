@@ -28,7 +28,8 @@
       "marginTop": 5,
       "paddingTop": 7,
       "paddingBottom": 3,
-      "colSizing": "auto"
+      "colSizing": "auto",
+      "verticalAlign":"center"
     }
   },
   "flex-layout.col#network": {
@@ -37,23 +38,21 @@
       "social-networks",
       "rich-text#payment",
       "accepted-payment-methods"
-    ]
+    ],
+    "props": {
+      "horizontalAlign": "right"
+    }
   },
   "rich-text#network": {
     "props": {
-      "text": "REDES SOCIAIS",
+      "text": "**REDES SOCIAIS**",
       "blockClass": "networkFooter"
     }
   },
   "rich-text#payment": {
     "props": {
-      "text": "FORMAS DE PAGAMENTO",
+      "text": "**PAGAMENTO**",
       "blockClass": "networkFooter"
-    }
-  },
-  "logo#footer": {
-    "props": {
-      "url": "https://i.ibb.co/Qp30mN6/loja-da-maria.jpg"
     }
   },
   "flex-layout.row#footer-2-desktop": {
@@ -92,13 +91,15 @@
   "image#1": {
     "props": {
       "src": "https://cdn-icons-png.flaticon.com/512/1256/1256202.png?w=826",
-      "height": 40
+      "height": 35,
+      "alt": "icone de escudo com sifrao"
     }
   },
   "image#2": {
     "props": {
       "src": "https://cdn-icons-png.flaticon.com/512/1224/1224138.png?w=826",
-      "height": 40
+      "height": 35,
+      "alt": "icone de cadeado cinza fechado"
     }
   },
   "social-networks": {
@@ -106,19 +107,19 @@
       "socialNetworks": [
         {
           "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
+          "url": "https://web.facebook.com/Loja-da-Maria-109221925198915"
         },
         {
           "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
+          "url": "https://www.instagram.com/loja.da.maria.ofc/"
         },
         {
           "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
+          "url": "https://twitter.com/LojaDaMariaOfc"
         },
         {
           "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
+          "url": "https://youtube.com/channel/UCdii0BjUBS6RMR9mkjRBhvA"
         }
       ]
     }
@@ -142,39 +143,44 @@
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#mobileNetwork",
-      "flex-layout.row#paymentMobile",
-      "flex-layout.row#mobileSecure",
-      "flex-layout.row#poweredBy"
+      "flex-layout.row#2-footer-mobile",
+      "flex-layout.row#3-footer-mobile"
     ]
   },
   "flex-layout.row#1-footer-mobile": {
     "props": {
       "paddingTop": 4,
-      "paddingBottom": 4
+      "paddingBottom": 8
     },
     "children": [
-      "logo#footer-mobile",
       "vtex.menu@2.x:menu#footer-mobile"
     ]
   },
-  "flex-layout.row#mobileNetwork": {
+  "flex-layout.row#2-footer-mobile": {
+    "children": [
+      "flex-layout.col#mobileNetwork",
+      "flex-layout.col#paymentMobile",
+      "flex-layout.row#mobileSecure",
+      "flex-layout.col#poweredBy"
+    ],
+    "props": {
+      "horizontalAlign": "between",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#mobileNetwork": {
     "children": [
       "social-networks"
     ],
     "props": {
-      "paddingTop": 8,
-      "paddingBottom": 4,
       "horizontalAlign": "center"
     }
   },
-  "flex-layout.row#paymentMobile": {
+  "flex-layout.col#paymentMobile": {
     "children": [
       "accepted-payment-methods"
     ],
     "props": {
-      "paddingTop": 4,
-      "paddingBottom": 4,
       "horizontalAlign": "center"
     }
   },
@@ -186,23 +192,17 @@
     "props": {
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
-      "horizontalAlign": "left"
+      "horizontalAlign": "center"
     }
   },
-  "flex-layout.row#poweredBy": {
+  "flex-layout.col#poweredBy": {
     "children": [
       "powered-by"
     ],
     "props": {
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
-      "horizontalAlign": "left"
-    }
-  },
-  "logo#footer-mobile": {
-    "props": {
-      "url": "https://i.ibb.co/Qp30mN6/loja-da-maria.jpg",
-      "width": "100%"
+      "horizontalAlign": "center"
     }
   },
   "flex-layout.row#3-footer-mobile": {

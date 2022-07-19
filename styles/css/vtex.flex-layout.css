@@ -5,6 +5,11 @@
 
 @media screen and (min-width: 40em) {
 
+
+  .flexRowContent {   /* Cris incluiu isso pra alinhar itens do footer */
+    align-items: center;
+  }
+
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 1rem;
@@ -126,4 +131,9 @@
 
 .flexColChild--secureBadge {
   max-width: 50%;
+}
+
+.flexRowContent--menu-row {   /* Cris incluiu isto para alinhar menus do footer */
+  align-items: baseline;
+  
 }

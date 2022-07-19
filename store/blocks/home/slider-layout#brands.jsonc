@@ -14,6 +14,11 @@
       "infinite": true,
       "showNavigationArrows": "always",
       "showPaginationDots": "desktopOnly",
+      "slideTransition": {
+        "speed": 1500,
+        "delay": 0,
+        "timing": "ease-in"
+      },
       "itemsPerPage": {
         "desktop": 5,
         "tablet": 3,
