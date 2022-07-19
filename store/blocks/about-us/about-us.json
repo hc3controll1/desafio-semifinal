@@ -1,0 +1,79 @@
+{
+  "store.custom#about-us": {
+    "blocks": ["info-card#about-us-1", "info-card#about-us-2", "__fold__", "rich-text#about-us-squad", "flex-layout.row#squad-1", "flex-layout.row#squad-2"]
+  },
+
+  "info-card#about-us-1":{
+    "props": {
+      "blockClass": "info-card-about-us-1",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "textAlignment": "right",
+      "imageUrl": "https://i.ibb.co/QCMN2TZ/aboutus-desktop.jpg",
+      "headline": "Sua jornada começa aqui!",
+      "subhead": "Você está na Loja da Maria, o melhor lugar para encontrar produtos diversos e com qualidade iniqualável. \n Você sabia que nós trabalhamos apenas com os fornecedores mais confiáveis do mercado? Pois é! Isso significa que todos os produtos que você encontrar no nosso site certamente serão da mais alta qualidade. Vá em frente!",
+      "callToActionMode": "disable"
+    }
+  },
+
+  "info-card#about-us-2":{
+    "props": {
+      "blockClass": "info-card-about-us-2",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "textAlignment": "left",
+      "imageUrl": "https://i.ibb.co/Zx00YFM/logo-controll.jpg",
+      "headline": "Somos da casa Controll!",
+      "subhead": "Se você chegou a esta casa, você com certeza vê a arte, o belo, nos detalhes da vida. A sua imaginação clareia até o código mais simples, se revelando em uma obra de arte. Sempre em conjunto com a comunidade, os Controllers sabem unir forças para construir um objetivo em comum, mas sem esquecer da sua liderança e importância diferenciada. Assim como um mago que resolve os problemas de formas não convencionais, você cria uma solução nova para chegar nos resultados mais criativos. É através da magia da sua essência que você enxergará a grande final.",
+      "callToActionMode": "disable"
+    }
+  },
+
+  "rich-text#about-us-squad":{
+    "props":{
+      "blockClass": "our-squad",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Nosso Squad",
+      "font": "t-heading-1"
+    }
+  },
+
+  "flex-layout.row#squad-1": {
+    "children": [
+      "flex-layout.col#squad-1", "flex-layout.col#squad-2", "flex-layout.col#squad-3"],
+    "props":{
+      "blockClass": "container-squad",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "colSizing": "auto",
+      "paddingBottom": 0,
+      "paddingTop": 0,
+      "marginBottom": 0,
+      "colJustify": "around",
+      "colGap": 8
+    }
+  },
+
+  "flex-layout.row#squad-2": {
+    "children": ["flex-layout.col#squad-4","flex-layout.col#squad-5","flex-layout.col#squad-6","flex-layout.col#squad-7"],
+    "props":{
+      "blockClass": "container-squad",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "colSizing": "auto",
+      "paddingBottom": 0,
+      "paddingTop": 0,
+      "marginBottom": 0,
+      "colJustify": "around",
+      "colGap": 8
+    }
+  }
+
+}
