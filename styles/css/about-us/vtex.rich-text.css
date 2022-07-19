@@ -1,0 +1,17 @@
+.heading--text-dev-1 .heading--text-dev-2 .heading--text-dev-3 .heading--text-dev-4 .heading--text-dev-5 .heading--text-dev-6 .heading--text-dev-7{
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 300px;
+    
+}
+
+.paragraph--our-squad {
+    max-width: 100%;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
