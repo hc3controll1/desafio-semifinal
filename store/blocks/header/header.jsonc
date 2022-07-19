@@ -71,7 +71,8 @@
       "displayMode": "search-and-clear-buttons",
       "autocompleteFullWidth": false,
       "autocompleteAlignment": "center",
-      "maxWidth": 10000
+      "maxWidth": 10000,
+      "placeholder": "Busque por produto, categoria ou marca..."
     }
   },
   "flex-layout.col#userWidgets": {

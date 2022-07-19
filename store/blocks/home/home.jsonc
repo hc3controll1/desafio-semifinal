@@ -38,7 +38,11 @@
       "responsive-layout.desktop#desktop",
       "responsive-layout.tablet#tablet",
       "responsive-layout.phone#phone"
-    ]
+    ],
+    "props": {
+      "marginRight": 5,
+      "marginLeft": 5
+    }
   },
   //Fim do slider responsivo
   //Depois do slider, vamos inserir a rowMain e a columnMain para controlar melhor as margens laterais
