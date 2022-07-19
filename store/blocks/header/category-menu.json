@@ -4,122 +4,56 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-sports",
-      "menu-item#category-electronics",
-      "menu-item#category-appliances",
-      "menu-item#category-fashion",
-      "menu-item#more"
+      "menu-item#category-shirts",
+      "menu-item#category-games",
+      "menu-item#category-mugs",
+      "menu-item#about-us"
     ]
   },
-  "menu-item#category-sports": {
+  "menu-item#category-shirts": {
     "props": {
-      "id": "menu-item-category-sports",
+      "id": "menu-item-category-shirts",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/sports/",
+        "href": "/camisetas/",
         "noFollow": false,
-        "tagTitle": "Esportes",
-        "text": "Esportes"
+        "tagTitle": "Camisetas",
+        "text": "Camisetas"
       } 
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-sports"
+      "vtex.menu@2.x:submenu#category-shirts"
     ]
   },
-  "vtex.menu@2.x:submenu#category-sports": {
+  "vtex.menu@2.x:submenu#category-shirts": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-sports"
+      "vtex.menu@2.x:menu#category-shirts"
     ]
   },
-  "vtex.menu@2.x:menu#category-sports": {
+  "vtex.menu@2.x:menu#category-shirts": {
     "props": {
       "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#category-sports-soccer",
-      "menu-item#category-sports-voley",
-      "menu-item#category-sports-tennis",
-      "menu-item#category-sports-fitness"
-    ]
-  },
-  "menu-item#category-sports-soccer": {
-    "props": {
-      "id": "menu-item-category-sports-soccer",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/sports/soccer/",
-        "noFollow": false,
-        "tagTitle": "Futebol",
-        "text": "Futebol"
-      }
     }
   },
-  "menu-item#category-sports-voley": {
+ 
+  "menu-item#category-games": {
     "props": {
-      "id": "menu-item-category-sports-voley",
+      "id": "menu-item-category-games",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/sports/voley/",
+        "href": "/games/",
         "noFollow": false,
-        "tagTitle": "Vôlei",
-        "text": "Vôlei"
-      }
-    }
-  },
-  "menu-item#category-sports-tennis": {
-    "props": {
-      "id": "menu-item-category-sports-tennis",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/sports/tennis/",
-        "noFollow": false,
-        "tagTitle": "Tênis",
-        "text": "Tênis"
-      }
-    }
-  },
-  "menu-item#category-sports-fitness": {
-    "props": {
-      "id": "menu-item-category-sports-fitness",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/sports/fitness/",
-        "noFollow": false,
-        "tagTitle": "Fitness",
-        "text": "Fitness"
-      }
-    }
-  },
-  "menu-item#category-electronics": {
-    "props": {
-      "id": "menu-item-category-electronics",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/electronics/",
-        "noFollow": false,
-        "tagTitle": "Eletrônicos",
-        "text": "Eletrônicos"
+        "tagTitle": "Games",
+        "text": "Games"
       }
     },
     "blocks": [
@@ -131,224 +65,49 @@
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-electronics"
+      "vtex.menu@2.x:menu#category-games"
     ]
   },
-  "vtex.menu@2.x:menu#category-electronics": {
+  "vtex.menu@2.x:menu#category-games": {
     "props": {
       "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#category-electronics-games",
-      "menu-item#category-electronics-computer"
-    ]
-  },
-  "menu-item#category-electronics-games": {
-    "props": {
-      "id": "menu-item-category-electronics-games",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/electronics/games/",
-        "noFollow": false,
-        "tagTitle": "Consoles e Jogos",
-        "text": "Consoles e Jogos"
-      }
     }
   },
-  "menu-item#category-electronics-computer": {
-    "props": {
-      "id": "menu-item-category-electronics-computer",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/electronics/computer/",
-        "noFollow": false,
-        "tagTitle": "Informática",
-        "text": "Informática"
-      }
-    }
-  },
+  
 
-  "menu-item#category-appliances": {
+  "menu-item#category-mugs": {
     "props": {
-      "id": "menu-item-category-appliances",
+      "id": "menu-item-category-mugs",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/appliances/",
+        "href": "/canecas/",
         "noFollow": false,
-        "tagTitle": "Eletrodomésticos",
-        "text": "Eletrodomésticos"
+        "tagTitle": "Canecas",
+        "text": "Canecas"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-appliances"
+      "vtex.menu@2.x:submenu#category-mugs"
     ]
   },
-  "vtex.menu@2.x:submenu#category-appliances": {
+  "vtex.menu@2.x:submenu#category-mugs": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-appliances"
+      "vtex.menu@2.x:menu#category-mugs"
     ]
   },
-  "vtex.menu@2.x:menu#category-appliances": {
+  "vtex.menu@2.x:menu#category-mugs": {
     "props": {
       "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#category-appliances-kitchen",
-      "menu-item#category-appliances-laundry"
-    ]
-  },
-  "menu-item#category-appliances-kitchen": {
-    "props": {
-      "id": "menu-item-category-appliances-kitchen",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/appliances/kitchen/",
-        "noFollow": false,
-        "tagTitle": "Cozinha",
-        "text": "Cozinha"
-      }
     }
   },
-  "menu-item#category-appliances-laundry": {
-    "props": {
-      "id": "menu-item-category-appliances-laundry",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/appliances/laundry/",
-        "noFollow": false,
-        "tagTitle": "Lavanderia",
-        "text": "Lavanderia"
-      }
-    }
-  },
+ 
 
-  "menu-item#category-fashion": {
-    "props": {
-      "id": "menu-item-category-fashion",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/fashion/",
-        "noFollow": false,
-        "tagTitle": "Moda",
-        "text": "Moda"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#category-fashion"
-    ]
-  },
-  "vtex.menu@2.x:submenu#category-fashion": {
-    "props": {
-      "width": "auto"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#category-fashion"
-    ]
-  },
-  "vtex.menu@2.x:menu#category-fashion": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#category-fashion-female",
-      "menu-item#category-fashion-male"
-    ]
-  },
-  "menu-item#category-fashion-female": {
-    "props": {
-      "id": "menu-item-category-fashion-female",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/fashion/female/",
-        "noFollow": false,
-        "tagTitle": "Feminina",
-        "text": "Feminina"
-      }
-    }
-  },
-  "menu-item#category-fashion-male": {
-    "props": {
-      "id": "menu-item-category-fashion-male",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/fashion/male/",
-        "noFollow": false,
-        "tagTitle": "Masculina",
-        "text": "Masculina"
-      }
-    }
-  },
-
-  "menu-item#more": {
-    "props": {
-      "id": "menu-item-custom-sale",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "Mais",
-        "text": "Mais"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#more"
-    ]
-  },
-  "vtex.menu@2.x:submenu#more": {
-    "children": [
-      "flex-layout.row#menu-more"
-    ]
-  },
-  "flex-layout.row#menu-more": {
-    "children": [
-      "flex-layout.col#menu-more"
-    ]
-  },
-  "flex-layout.col#menu-more": {
-    "children": [
-      "vtex.menu@2.x:menu#more"
-    ]
-  },
-  "vtex.menu@2.x:menu#more": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#about-us",
-      "menu-item#faq",
-      "menu-item#contact-us"
-    ]
-  },
   "menu-item#about-us": {
     "props": {
       "id": "menu-item-about-us",
@@ -361,36 +120,6 @@
         "noFollow": true,
         "tagTitle": "Quem somos",
         "text": "Quem somos"
-      }
-    }
-  },
-  "menu-item#faq": {
-    "props": {
-      "id": "menu-item-faq",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/faq",
-        "noFollow": true,
-        "tagTitle": "Dúvidas frequentes",
-        "text": "Dúvidas frequentes"
-      }
-    }
-  },
-  "menu-item#contact-us": {
-    "props": {
-      "id": "menu-item-contact-us",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/contact-us",
-        "noFollow": true,
-        "tagTitle": "Contato",
-        "text": "Contato"
       }
     }
   }

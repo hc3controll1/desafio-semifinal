@@ -154,11 +154,10 @@
   },
   "menu#drawer": {
     "children": [
-      "menu-item#category-sports",
-      "menu-item#category-electronics",
-      "menu-item#category-appliances",
-      "menu-item#category-fashion",
-      "menu-item#more"
+      "menu-item#category-shirts",
+      "menu-item#category-games",
+      "menu-item#category-mugs",
+      "menu-item#about-us"
     ],
     "props": {
       "orientation": "vertical"
