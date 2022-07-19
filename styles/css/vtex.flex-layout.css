@@ -108,6 +108,10 @@
   background-color: #F7F7F7;
 }
 
+.flexRowContent--userWidgetRow {
+  justify-content: flex-end !important;
+}
+
 .flexRow--desktopFooter-2 {
   background-color: #F7F7F7;
 }

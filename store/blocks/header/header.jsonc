@@ -28,25 +28,23 @@
   "flex-layout.row#1-desktop": {
     "props": {
       "blockClass": "main-header",
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true,
+      "fullWidth": false,
       "colSizing": "auto",
-      "paddingBottom": 0,
-      "paddingTop": 0,
-      "marginBottom": 0,
-      "colJustify": "around",
-      "colGap": 8
+      "colJustify": "between"
     },
     "children": [
-      "logo#desktop",
-      "search-bar",
-      "flex-layout.col#points",
-      "login",
-      "minicart.v2"
+      "flex-layout.col#logoDesktop",
+      "flex-layout.col#search-bar",
+      "flex-layout.col#userWidgets"
     ]
+  },
+  "flex-layout.col#logoDesktop": {
+    "children": [
+      "logo#desktop"
+    ],
+    "props": {
+      "verticalAlign": "middle"
+    }
   },
   "logo#desktop": {
     "props": {
@@ -57,7 +55,17 @@
       "height": "80"
     }
   },
-
+  "flex-layout.col#search-bar": {
+    "children": [
+      "search-bar"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "marginRight": 8,
+      "marginLeft": 8,
+      "width": "grow"
+    }
+  },
   "search-bar": {
     "props": {
       "displayMode": "search-and-clear-buttons",
@@ -66,19 +74,33 @@
       "maxWidth": 10000
     }
   },
-
-  "flex-layout.col#points": {
+  "flex-layout.col#userWidgets": {
     "children": [
-      "flex-layout.row#points"
+      "flex-layout.row#userWidgets"
     ],
     "props": {
       "verticalAlign": "middle"
     }
   },
-
-  "login": {
+  "flex-layout.row#userWidgets": {
+    "children": [
+      "flex-layout.col#points",
+      "login",
+      "minicart.v2"
+    ],
     "props": {
-      "showIconProfile": true
+      "colSizing": "auto",
+      "blockClass": "userWidgetRow"
+    }
+  },
+  "flex-layout.col#points": {
+    "children": [
+      "flex-layout.row#points"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "marginLeft": 5,
+      "marginRight": 5
     }
   },
   "flex-layout.row#points": {
@@ -92,6 +114,11 @@
   "rich-text#points": {
     "props": {
       "text": "🪙 Meus pontos: 0"
+    }
+  },
+  "login": {
+    "props": {
+      "showIconProfile": true
     }
   },
   "flex-layout.row#2-desktop": {
@@ -154,11 +181,10 @@
   },
   "menu#drawer": {
     "children": [
-      "menu-item#category-sports",
-      "menu-item#category-electronics",
-      "menu-item#category-appliances",
-      "menu-item#category-fashion",
-      "menu-item#more"
+      "menu-item#category-shirts",
+      "menu-item#category-games",
+      "menu-item#category-mugs",
+      "menu-item#about-us"
     ],
     "props": {
       "orientation": "vertical"
