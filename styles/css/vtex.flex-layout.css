@@ -6,7 +6,8 @@
 @media screen and (min-width: 40em) {
 
 
-  .flexRowContent {   /* Cris incluiu isso pra alinhar itens do footer */
+  .flexRowContent {
+    /* Cris incluiu isso pra alinhar itens do footer */
     align-items: center;
   }
 
@@ -31,6 +32,7 @@
 
 .flexRowContent--main-header {
   background-color: #f0f0f0;
+  padding-top: 0 !important;
 }
 
 .flexRowContent--main-header-mobile {
@@ -133,7 +135,10 @@
   max-width: 50%;
 }
 
-.flexRowContent--menu-row {   /* Cris incluiu isto para alinhar menus do footer */
+.flexRowContent--menu-row {
+  /* Cris incluiu isto para alinhar menus do footer */
   align-items: baseline;
-  
+  margin: 0 auto;
+  max-width: 90%;
+
 }
