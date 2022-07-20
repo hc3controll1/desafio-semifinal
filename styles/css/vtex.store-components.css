@@ -111,3 +111,7 @@
 .image {
   image-rendering: -webkit-optimize-contrast;
 }
+
+.wrapper--info-card-contact {
+  padding: 0 2rem;
+}
