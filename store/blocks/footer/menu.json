@@ -93,7 +93,6 @@
     },
     "children": [
       "menu-item#help",
-      "menu-item#faq",
       "menu-item#customer-service"
     ]
   },
@@ -123,21 +122,6 @@
         "noFollow": true,
         "tagTitle": "Fale conosco",
         "text": "Fale conosco"
-      }
-    }
-  },
-  "menu-item#faq": {
-    "props": {
-      "id": "menu-item-faq",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/faq",
-        "noFollow": true,
-        "tagTitle": "Dúvidas frequentes",
-        "text": "Dúvidas frequentes"
       }
     }
   },
@@ -201,7 +185,6 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#faq",
       "menu-item#customer-service"
     ]
   },

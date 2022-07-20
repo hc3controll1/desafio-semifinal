@@ -5,13 +5,28 @@
       "blockClass": "headerMenu"
     },
     "children": [
+      "menu-item#home",
       "menu-item#category-rewards",
       "menu-item#category-shirts",
       "menu-item#category-bags",
       "menu-item#category-cups",
-      "menu-item#category-mugs",
-      "menu-item#about-us"
+      "menu-item#category-mugs"
     ]
+  },
+  "menu-item#home": {
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Home",
+        "text": "Home"
+      }
+    }
   },
   "menu-item#category-rewards": {
     "props": {
@@ -167,21 +182,6 @@
   "vtex.menu@2.x:menu#category-cups": {
     "props": {
       "orientation": "vertical"
-    }
-  },
-  "menu-item#about-us": {
-    "props": {
-      "id": "menu-item-about-us",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/about-us",
-        "noFollow": true,
-        "tagTitle": "Quem somos",
-        "text": "Quem somos"
-      }
     }
   }
 }

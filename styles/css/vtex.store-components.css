@@ -9,7 +9,7 @@
 .infoCardContainer--info-card-home {
   max-width: 1520px;
   margin: 0 auto;
-  background-color: #e6f1e6;
+  background-color: #d3e4f2;
   padding: 0px;
 }
 
@@ -87,7 +87,8 @@
     max-height: 600px;
   }
 
-  .infoCardTextContainer--info-card-contact {   /* Cris incluiu */
+  .infoCardTextContainer--info-card-contact {
+    /* Cris incluiu */
     padding: 0 0 2rem 0;
   }
 }
@@ -121,11 +122,16 @@
 }
 
 /* Cris inseriu daqui pra baixo*/
-.wrapper--info-card-contact {
+.wrapper--info-card-contact, .wrapper--info-card-about-us-1-desktop {
   padding: 0 2rem;
 }
 
-.heading--info-card-contact {
+.heading--info-card-contact,
+.heading--info-card-about-us-1-desktop {
   color: #2196F3;
-  text-shadow: 1.5px 1.5px #03054e;
+  text-shadow: 1px 1px 1px #363535;
+}
+
+.infoCardImageContainer--info-card-home {
+  padding: 0;
 }

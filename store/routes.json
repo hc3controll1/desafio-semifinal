@@ -3,10 +3,6 @@
     "path": "/about-us",
     "isSitemapEntry": "true"
   },
-  "store.custom#faq": {
-    "path": "/faq",
-    "isSitemapEntry": "true"
-  },
   "store.custom#contact-us": {
     "path": "/contact-us",
     "isSitemapEntry": "true"
