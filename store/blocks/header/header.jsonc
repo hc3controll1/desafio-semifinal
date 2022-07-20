@@ -21,9 +21,17 @@
       "blockClass": "sticky-header"
     },
     "children": [
-      "flex-layout.row#1-desktop",
+      "flex-layout.row#1-rowdesktop",
       "flex-layout.row#2-desktop"
     ]
+  },
+  "flex-layout.row#1-rowdesktop": {
+    "children": [
+      "flex-layout.row#1-desktop"
+    ],
+    "props": {
+      "fullWidth": true
+    }
   },
   "flex-layout.row#1-desktop": {
     "props": {

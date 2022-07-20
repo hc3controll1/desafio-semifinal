@@ -80,7 +80,7 @@
     "background": {
       "base": "#ffffff",
       "base--inverted": "#03044e",
-      "action-primary": "#0F3E99",
+      "action-primary": "#2196F3",
       "action-secondary": "#eef3f7",
       "emphasis": "#f71963",
       "disabled": "#f2f4f5",
@@ -264,7 +264,7 @@
   },
   "borderWidths": [
     0,
-    0.125,
+    0.1,
     0.25,
     0.5,
     1,
