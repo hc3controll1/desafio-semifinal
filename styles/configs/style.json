@@ -368,7 +368,7 @@
       "body": {
         "fontFamily": "VTEXTrust,sans-serif",
         "fontWeight": "normal",
-        "fontSize": "1rem",
+        "fontSize": "1.1rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },

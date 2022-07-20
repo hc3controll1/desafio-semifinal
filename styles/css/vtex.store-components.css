@@ -65,22 +65,30 @@
   margin: 1rem 0;
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (max-width: 810px) {
   .newsletter .container {
     padding: 140px;
   }
+
   .label {
-     font-size: 40px;
+    font-size: 40px;
   }
+
   .infoCardContainer--info-card-home .infoCardTextContainer {
     width: 30%;
   }
+
   .infoCardContainer--info-card-home .infoCardImageContainer {
     width: 70%;
   }
+
   .imageElement--storePrint {
     margin-bottom: 0px;
     max-height: 600px;
+  }
+
+  .infoCardTextContainer--info-card-contact {   /* Cris incluiu */
+    padding: 0 0 2rem 0;
   }
 }
 
@@ -112,6 +120,12 @@
   image-rendering: -webkit-optimize-contrast;
 }
 
+/* Cris inseriu daqui pra baixo*/
 .wrapper--info-card-contact {
   padding: 0 2rem;
+}
+
+.heading--info-card-contact {
+  color: #2196F3;
+  text-shadow: 1.5px 1.5px #03054e;
 }
