@@ -2,7 +2,7 @@
   "image#dev1":{
     "props": {
       "blockClass": "img-dev-1",
-      "src": "https://media-exp1.licdn.com/dms/image/D4D35AQFojaQJDADA8g/profile-framedphoto-shrink_800_800/0/1653086261465?e=1658847600&v=beta&t=Gwg5OOyKHMy9rfq_bbTSgzqEM9Sz3APps8pwOesmdFc",
+      "src": "https://i.ibb.co/V3J92mT/cristiane.png",
       "link":{
         "url": "https://www.linkedin.com/in/cristianedsc/",
         "newTab": true
@@ -13,7 +13,7 @@
   "image#dev2":{
     "props": {
       "blockClass": "img-dev-2",
-      "src": "https://media-exp1.licdn.com/dms/image/C5603AQFK3Gs6uU1qWA/profile-displayphoto-shrink_800_800/0/1652192030269?e=1663804800&v=beta&t=QY_znoV6ZpeUfqCidtU92EMoSAlImIcqculGu_YHEpM",
+      "src": "https://i.ibb.co/TvMmJSz/rodolfo.jpg",
       "link":{
         "url": "https://www.linkedin.com/in/rodolfo-silva-14573b117/",
         "newTab": true
@@ -24,7 +24,7 @@
   "image#dev3":{
     "props": {
       "blockClass": "img-dev-3",
-      "src": "https://media-exp1.licdn.com/dms/image/C4D03AQFWOP_xlcPrxg/profile-displayphoto-shrink_800_800/0/1650397896915?e=1663804800&v=beta&t=YP-2Y2ixsly1BmaglVyVUf2drsw0l7qjEqqKCBIbxqA",
+      "src": "https://i.ibb.co/BsWx7m6/flavio.jpg",
       "link":{
         "url": "https://www.linkedin.com/in/fl%C3%A1vioviana113/",
         "newTab": true
@@ -35,7 +35,7 @@
   "image#dev4":{
     "props": {
       "blockClass": "img-dev-4",
-      "src": "https://media-exp1.licdn.com/dms/image/C4D03AQFsDfblbtbddw/profile-displayphoto-shrink_800_800/0/1657510588498?e=1663804800&v=beta&t=CikDAW0EvmfZsMwqylpkkBWvZVvPY1IEPb65zeaxU44",
+      "src": "https://i.ibb.co/VJC13w1/leona.jpg",
       "link":{
         "url": "https://www.linkedin.com/in/leona-evangelista/",
         "newTab": true
@@ -46,7 +46,7 @@
   "image#dev5":{
     "props": {
       "blockClass": "img-dev-5",
-      "src": "https://media-exp1.licdn.com/dms/image/C4D03AQHvS8Qkapl4cw/profile-displayphoto-shrink_800_800/0/1595620876659?e=1663804800&v=beta&t=FMW1n5haT0F8pg-JB6cYBue-jKBnciE7DUEXSgdDqWA",
+      "src": "https://i.ibb.co/gyhr7BK/victor.jpg",
       "link":{
         "url": "https://www.linkedin.com/in/victorhugommf/",
         "newTab": true
@@ -56,21 +56,10 @@
 
   "image#dev6":{
     "props": {
-      "blockClass": "img-dev-6",
-      "src": "https://media-exp1.licdn.com/dms/image/C4D03AQGOAEhpFll_YQ/profile-displayphoto-shrink_800_800/0/1517047012539?e=1663804800&v=beta&t=rsD2cXxl9-l1MLHlYpQUhXcfM36c81OjpV2Yhlszwbo",
-      "link":{
-        "url": "https://www.linkedin.com/in/andrericardodev/",
-        "newTab": true
-        }
-    }
-  },
-
-  "image#dev7":{
-    "props": {
       "blockClass": "img-dev-7",
       "src": "https://media-exp1.licdn.com/dms/image/C4E03AQHF0H_R8ePMVA/profile-displayphoto-shrink_800_800/0/1648562829297?e=1663804800&v=beta&t=DjNJrVue4yMak96_uRtWV0SuJnbsgV4SniEtWN7RIoQ",
       "link":{
-        "url": "https://www.linkedin.com/in/waltersasouza/",
+        "url": "https://i.ibb.co/7kxBBT8/walter.jpg",
         "newTab": true
         }
     }

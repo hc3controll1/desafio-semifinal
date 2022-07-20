@@ -1,81 +1,62 @@
-.infoCardContainer--info-card-about-us-1 {
-    Width: 90vw;
-    height: 65vh;
-    margin-left: auto;
-    margin-right: auto;
+.infoCardContainer--info-card-about-us-1-desktop{
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(247, 247, 246);
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
-.infoCardContainer--info-card-about-us-2 {
-    Width: 90vw;
-    height: 50vh;
-    margin-left: auto;
-    margin-right: auto 
+.headingLevel2--info-card-about-us-1-desktop {
+   color: #64a3d6;
 }
 
-.infoCardImage--info-card-about-us-1 {
-    width: 100vw
+.headingLevel2--info-card-about-us-2-desktop {
+   color: #f71e80;
 }
 
-
-.infoCardTextContainer--info-card-about-us-2{
-    width: 80%
+.headingLevel6--info-card-about-us-1-desktop,
+.headingLevel6--info-card-about-us-2-desktop {
+    padding-left: 2vw;
+    
 }
 
-.flexRowContent--container-squad1{
-   margin-bottom: 10%;
+.infoCardImage--info-card-about-us-1-desktop {
+    width: 150vw;
+    height: 60vh;
+    margin-top: -5vh;
+    
+}
+
+.infoCardTextContainer--info-card-about-us-1-desktop{
+    width: 50%
+}
+
+.flexRowContent--container-squad1,
+.flexRowContent--container-squad2,
+.flexRowContent--container-squad3,
+.flexRowContent--container-squad4,
+.flexRowContent--container-squad5,
+.flexRowContent--container-squad6,
+.flexRowContent--container-squad7{
+  margin: 0 auto;
+  padding: 0 auto;
 
 }
 
-.flexRowContent--container-squad2{
-   margin-bottom: 10%;
-
+.flexCol--col-squad-1{
+    padding-left: -5vw;
 }
 
-.flexRowContent--container-squad3{
-   margin-bottom: 10%;
-
-}
-
-.imageElement--img-dev-1 {
-    width: 300px;
-    height: 300px
-}
-
-.imageElement--img-dev-2 {
-    width: 300px;
-    height: 300px
-}
-
-.imageElement--img-dev-3 {
-    width: 300px;
-    height: 300px
-}
-
-.imageElement--img-dev-4 {
-    width: 300px;
-    height: 300px
-}
-
-.imageElement--img-dev-5 {
-    width: 300px;
-    height: 300px
-}
-
-.imageElement--img-dev-6 {
-    width: 300px;
-    height: 300px
-}
-
+.imageElement--img-dev-1,
+.imageElement--img-dev-2,
+.imageElement--img-dev-3,
+.imageElement--img-dev-4,
+.imageElement--img-dev-5,
+.imageElement--img-dev-6,
 .imageElement--img-dev-7 {
     width: 300px;
     height: 300px
 }
 
-.flexCol {
-    padding: 0;
-}
-
-.flexCol--col-squad-2{
-    padding:0;
-
-}

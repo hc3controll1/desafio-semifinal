@@ -6,9 +6,7 @@
       "image#brand3",
       "image#brand4",
       "image#brand5",
-      "image#brand6",
-      "image#brand7",
-      "image#brand8"
+      "image#brand6"
     ],
     "props": {
       "infinite": true,
@@ -32,57 +30,43 @@
   "image#brand1": {
     "props": {
       "maxHeight": 150,
-      "src": "https://img.freepik.com/vetores-gratis/verao-e-tipografia-de-ferias-ilustracao_53876-3264.jpg?t=st=1657889254~exp=1657889854~hmac=1017aad7cd73250285ad4f246ca42ede391695a97e431c65358f5e71a99bb140&w=826",
-      "alt": "logotipo de marca ficticia de surf"
+      "src": "https://i.ibb.co/3Tpr1vD/atmosphere.png",
+      "alt": "logotipo marca Atmosphere"
     }
   },
   "image#brand2": {
     "props": {
       "maxHeight": 150,
-      "src": "https://img.freepik.com/vetores-gratis/modelo-de-logotipo-de-ginasio-de-fitness-ilustracao-abstrata-em-vetor-de-design-minimo_53876-151333.jpg?t=st=1657889254~exp=1657889854~hmac=704cdc0a8c377205a3047bafab093839659d05bcd4d5045e35e5d91708aadb27&w=826",
-      "alt": "logotipo marca ficticia fitness"
+      "src": "https://i.ibb.co/n390W2T/bitsized.png",
+      "alt": "logotipo marca Bitsized"
     }
   },
   "image#brand3": {
     "props": {
       "maxHeight": 150,
-      "src": "https://img.freepik.com/vetores-gratis/modelo-de-logotipo-de-raquete-grafico-de-negocios-de-clube-esportivo-em-vetor-de-design-minimo_53876-151331.jpg?t=st=1657889254~exp=1657889854~hmac=80d8b80fd61c1af251b57e4d3ddfc1918e75de9bae48b3dcc4296ad9b36bb366&w=826",
-      "alt": "logotipo marca ficticia ilustracao raquete tenis"
+      "src": "https://i.ibb.co/KVJpwjx/controll.png",
+      "alt": "logotipo marca Controll"
     }
   },
   "image#brand4": {
     "props": {
       "maxHeight": 150,
-      "src": "https://img.freepik.com/vetores-gratis/modelo-de-logotipo-de-esportes-de-bicicleta-ilustracao-de-bicicleta-em-vetor-de-design-minimalista_53876-151334.jpg?t=st=1657889391~exp=1657889991~hmac=3fb84d87247de978b1188327bc027be2fdaee7184b822c68be8851e5ad270a39&w=826",
-      "alt": "logotipo marca ficticia ilustrcao bicicleta"
+      "src": "https://i.ibb.co/QJbLfWX/speedware.png",
+      "alt": "https://i.ibb.co/t4MdQds/speedware.png"
     }
   },
   "image#brand5": {
     "props": {
       "maxHeight": 150,
-      "src": "https://img.freepik.com/vetores-gratis/modelo-de-logotipo-de-ginasio-de-fitness-ilustracao-de-barra-em-vetor-de-design-minimo_53876-154270.jpg?t=st=1657889254~exp=1657889854~hmac=84c7e85f5be82e0c7fe3574bcb87d76d36d1082d5b662f5a6e580d8830e664fa&w=826",
-      "alt": "logotipo marca ficticia ginasio fitness"
+      "src": "https://i.ibb.co/t4MdQds/dreamscape.png",
+      "alt": "logotipo marca Dreamscape"
     }
   },
   "image#brand6": {
     "props": {
       "maxHeight": 150,
-      "src": "https://img.freepik.com/vetores-gratis/modelo-de-logotipo-de-esportes-de-aventura-vetor-grafico-de-negocios-de-alpinismo_53876-154271.jpg?t=st=1657889391~exp=1657889991~hmac=ef915eb1dd19595c61703d3009d48870e43ea3f976b7c1ca1d0b5852e6b4e635&w=826",
-      "alt": "logotipo marca ficticia esportes aventura"
-    }
-  },
-  "image#brand7": {
-    "props": {
-      "maxHeight": 150,
-      "src": "https://img.freepik.com/vetores-gratis/modelo-de-logotipo-do-clube-de-golfe-do-pais-vetor-grafico-de-negocios-profissional_53876-151332.jpg?t=st=1657904104~exp=1657904704~hmac=1c2a9f5e4e577d9685ae5fd75a53b15a0fa4400fdd2ec1359e87d451d4ffe56a&w=826",
-      "alt": "logotipo marca ficticia clube golf"
-    }
-  },
-  "image#brand8": {
-    "props": {
-      "maxHeight": 150,
-      "src": "https://img.freepik.com/vetores-gratis/ilustracao-de-design-vetorial-de-design-de-silhueta-de-cavalo_343694-1283.jpg?t=st=1657889254~exp=1657889854~hmac=6839f17b901e76da047529959018669b8e036b1a6704b2a9f09d89a405fe718b&w=826",
-      "alt": "logotipo marca ficticia ilustracao cavalo"
+      "src": "https://i.ibb.co/zSWZQb6/travellog.png",
+      "alt": "logotipo marca Dreamscape"
     }
   }
 }

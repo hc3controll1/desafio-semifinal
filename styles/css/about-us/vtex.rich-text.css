@@ -8,6 +8,10 @@
     
 }
 
+.wrapper--desc-dev-1,.wrapper--desc-dev-2,.wrapper--desc-dev-3,.wrapper--desc-dev-4,.wrapper--desc-dev-5,.wrapper--desc-dev-6 .paragraph {
+    width: 300px;
+}
+
 .paragraph--our-squad {
     max-width: 100%;
     padding-top: auto;
@@ -15,3 +19,4 @@
     margin-top: auto;
     margin-bottom: auto;
 }
+

@@ -1,0 +1,25 @@
+.submenuWrapper--rewardSubmenu {
+  min-width: 50vw;
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 20%);
+  border-radius: 5px;
+}
+
+.styledLinkContent {
+  color: #142032;
+}
+
+.styledLinkContent:hover {
+  color: #2196F3;
+}
+
+.menuItem--headerMenuItem {
+  border-bottom: 2px solid #F0F0F0;
+}
+
+.styledLinkContainer {
+  padding: .5rem 0;
+}
+
+.styledLinkContent--menuItemHeaderFooter {
+  font-weight: bold;
+}

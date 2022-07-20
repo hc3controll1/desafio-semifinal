@@ -13,7 +13,8 @@
       "id": "menu-item-info",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
+      "blockClass": "menuItemHeaderFooter",
       "itemProps": {
         "text": "INSTITUCIONAL"
       }
@@ -50,6 +51,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "menuItemHeaderFooter",
       "itemProps": {
         "text": "MINHA CONTA"
       }
@@ -101,6 +103,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "menuItemHeaderFooter",
       "itemProps": {
         "noFollow": true,
         "tagTitle": "AJUDA",

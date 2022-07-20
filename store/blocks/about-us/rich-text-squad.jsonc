@@ -11,6 +11,7 @@
 
     "rich-text#dev-description-1": {
         "props":{
+            "blockClass": "desc-dev-1",
             "text": "*Neurocientista pela UFABC com foco em \n pesquisa acadêmica em biologia. \nDesenvolvedora Web Front-end.*",
             "textAlignment": "left",
             "textPosition": "left",
@@ -32,6 +33,7 @@
 
     "rich-text#dev-description-2": {
         "props":{
+            "blockClass": "desc-dev-2",
             "text": "*Administrador de Empresas pela Faculdade Fafire. \nDesenvolvedor Web Front-end.*",
             "textAlignment": "left",
             "textPosition": "left",
@@ -52,6 +54,7 @@
 
     "rich-text#dev-description-3": {
         "props":{
+            "blockClass": "desc-dev-3",
             "text": "*Bacharelando em Sistemas de Informação. \nDesenvolvedor Web Front-end.*",
             "textAlignment": "left",
             "textPosition": "left",
@@ -72,7 +75,8 @@
 
     "rich-text#dev-description-4": {
         "props":{
-            "text": "*Profissional em Educação Física pela UniEvangélica.\n Bacharelanda em Educação Física pela UEG. \nDesenvolvedora Web Front-end.*",
+            "blockClass": "desc-dev-4",
+            "text": "*Profissional em Educação Física.\n Bacharelanda em S.I pela UEG. \nDesenvolvedora Web Front-end.*",
             "textAlignment": "left",
             "textPosition": "left",
             "font": "t-heading-10"
@@ -92,6 +96,7 @@
 
     "rich-text#dev-description-5": {
         "props":{
+            "blockClass": "desc-dev-5",
             "text": "*Engenheiro mecânico com ênfase em engenharia mecatrônica*. \n *Desenvolvedor Web Front-end.*",
             "textAlignment": "left",
             "textPosition": "left",
@@ -105,34 +110,15 @@
           "blockClass": "text-dev-6",
           "textAlignment": "CENTER",
           "textPosition": "CENTER",
-          "text": " ##### Andre Ricardo de Oliveira Silva",
+          "text": " #### Walter Souza", 
           "font": "t-heading-5"
         }
     },
 
     "rich-text#dev-description-6": {
         "props":{
-            "text": "*Bacharelando em Sistemas de Informação pela Estácio*.\n *Desenvolvedor Web Front-end.*",
-            "textAlignment": "left",
-            "textPosition": "left",
-            "font": "t-heading-10"
-            //https://www.linkedin.com/in/andrericardodev/
-        }
-    },
-
-    "rich-text#dev7": {
-        "props": {
-          "blockClass": "text-dev-7",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "text": " ##### Walter Santos de Andrade Souza", 
-          "font": "t-heading-5"
-        }
-    },
-
-    "rich-text#dev-description-7": {
-        "props":{
-            "text": "*Gerente Administrativo*. *Desenvolvedor de Software.*",
+            "blockClass": "desc-dev-6",
+            "text": "*Gerente Administrativo*. \n *Desenvolvedor de Software.* \n *Desenvolvedor Web Front-End.*",
             "textAlignment": "left",
             "textPosition": "left",
             "font": "t-heading-10"
