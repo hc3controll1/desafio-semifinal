@@ -191,7 +191,8 @@
   "menu#drawer": {
     "children": [
       "menu-item#category-shirts",
-      "menu-item#category-games",
+      "menu-item#category-bags",
+      "menu-item#category-cups",
       "menu-item#category-mugs",
       "menu-item#about-us"
     ],

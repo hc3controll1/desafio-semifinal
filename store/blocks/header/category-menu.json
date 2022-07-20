@@ -5,10 +5,11 @@
       "blockClass": "headerMenu"
     },
     "children": [
-      "menu-item#category-shirts",
-      "menu-item#category-games",
-      "menu-item#category-mugs",
       "menu-item#category-rewards",
+      "menu-item#category-shirts",
+      "menu-item#category-bags",
+      "menu-item#category-cups",
+      "menu-item#category-mugs",
       "menu-item#about-us"
     ]
   },
@@ -75,33 +76,33 @@
       "orientation": "vertical"
     }
   },
-  "menu-item#category-games": {
+  "menu-item#category-bags": {
     "props": {
-      "id": "menu-item-category-games",
+      "id": "menu-item-category-bags",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/games/",
+        "href": "/Mochilas/",
         "noFollow": false,
-        "tagTitle": "Games",
-        "text": "Games"
+        "tagTitle": "Mochilas",
+        "text": "Mochilas"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-games"
+      "vtex.menu@2.x:submenu#category-bags"
     ]
   },
-  "vtex.menu@2.x:submenu#category-games": {
+  "vtex.menu@2.x:submenu#category-bags": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-games"
+      "vtex.menu@2.x:menu#category-bags"
     ]
   },
-  "vtex.menu@2.x:menu#category-games": {
+  "vtex.menu@2.x:menu#category-bags": {
     "props": {
       "orientation": "vertical"
     }
@@ -133,6 +134,37 @@
     ]
   },
   "vtex.menu@2.x:menu#category-mugs": {
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category-cups": {
+    "props": {
+      "id": "menu-item-category-cups",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/copos/",
+        "noFollow": false,
+        "tagTitle": "Copos",
+        "text": "Copos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-cups"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-cups": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-cups"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-cups": {
     "props": {
       "orientation": "vertical"
     }
