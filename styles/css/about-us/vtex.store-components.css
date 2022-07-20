@@ -1,4 +1,5 @@
 .infoCardContainer--info-card-about-us-1 {
+    background-color: rgb(250, 250, 250);
     Width: 90vw;
     height: 65vh;
     margin-left: auto;
@@ -13,7 +14,8 @@
 }
 
 .infoCardImage--info-card-about-us-1 {
-    width: 100vw
+    width: 100vw;
+    height: 65vh
 }
 
 
@@ -71,11 +73,34 @@
     height: 300px
 }
 
-.flexCol {
-    padding: 0;
-}
+@media only screen and (max-width: 640px) {
+    .infoCardContainer--info-card-about-us-1 {
+        background-color: white;
+        Width: 100vw;
+        height: 100vh;
+        margin-bottom: 0;
+    }
 
-.flexCol--col-squad-2{
-    padding:0;
+    .infoCardContainer--info-card-about-us-2 {
+        Width: 100%;
+        height: 100%;
+        margin-top: -40vh;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .infoCardImage--info-card-about-us-1 {
+        margin-top: -7vh;
+        width: 100%;
+        height: 100%
+    }
+
+    .infoCardImage--info-card-about-us-2 {
+        margin-top: -7vh;
+        width: 100%;
+        height: 100%
+    }
+
+    
 
 }

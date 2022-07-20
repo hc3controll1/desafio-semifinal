@@ -4,10 +4,10 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-rewards",
       "menu-item#category-shirts",
       "menu-item#category-games",
       "menu-item#category-mugs",
+      "menu-item#category-rewards",
       "menu-item#about-us"
     ]
   },
