@@ -73,6 +73,21 @@
         "tagTitle": "Camisetas",
         "text": "Camisetas"
       }
+    }
+  },
+  "menu-item#login": {
+    "props": {
+      "id": "menu-item-login",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/login",
+        "noFollow": false,
+        "tagTitle": "Entre ou Cadastre-se",
+        "text": "Entre ou Cadastre-se"
+      }
     },
     "blocks": [
       "vtex.menu@2.x:submenu#category-shirts"

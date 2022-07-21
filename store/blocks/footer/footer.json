@@ -152,7 +152,7 @@
       "flex-layout.col#mobileNetwork",
       "flex-layout.col#paymentMobile",
       "flex-layout.row#mobileSecure",
-      "flex-layout.col#poweredBy"
+      "flex-layout.col#poweredByMobile"
     ],
     "props": {
       "horizontalAlign": "between",
@@ -198,6 +198,17 @@
       "verticalAlign": "top"
     }
   },
+  "flex-layout.col#poweredByMobile": {
+    "children": [
+      "powered-by"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "top"
+    }
+  },
   "rich-text#poweredBy": {
     "props": {
       "text": "**TECNOLOGIA**"
@@ -213,7 +224,7 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "© 2022 LOJA DA MARIA TODOS OS DIREITOS RESERVADOS. Loja da Maria ME – CNPJ 00.000.000/0000-00. Uma Rua, n.º 0 – Um Bairro – CEP. 00000-000 – Uma Cidade/ESTADO\n[Política de Cookies](#) | [Política de Privacidade](#)",
-      "blockClass": "footer-rich-text"
+      "blockClass": "footer"
     }
   }
 }

@@ -60,7 +60,8 @@
       "href": "/",
       "url": "https://i.ibb.co/Z6XYPJw/20220719-181430-0000-2-removebg-preview.png",
       "width": "180",
-      "height": "80"
+      "height": "80",
+      "blockClass": "logoClass"
     }
   },
   "flex-layout.col#search-bar": {
@@ -80,7 +81,8 @@
       "autocompleteFullWidth": false,
       "autocompleteAlignment": "center",
       "maxWidth": 10000,
-      "placeholder": "Busque por produto, categoria ou marca..."
+      "placeholder": "Busque por produto, categoria ou marca...",
+      "blockClass": "searchClass"
     }
   },
   "flex-layout.col#userWidgets": {
@@ -94,7 +96,7 @@
   "flex-layout.row#userWidgets": {
     "children": [
       "flex-layout.col#points",
-      "login",
+      "login#desktop",
       "minicart.v2"
     ],
     "props": {
@@ -125,7 +127,12 @@
       "text": "🪙 Meus pontos: 0"
     }
   },
-  "login": {
+  "rich-text#pointsMobile": {
+    "props": {
+      "text": "🪙 0"
+    }
+  },
+  "login#desktop": {
     "props": {
       "showIconProfile": true
     }
@@ -159,15 +166,14 @@
   "sticky-layout#1-mobile": {
     "children": [
       "flex-layout.row#1-mobile",
-      "flex-layout.row#2-mobile",
-      "flex-layout.row#pontos"
+      "flex-layout.row#2-mobile"
     ]
   },
   "flex-layout.row#1-mobile": {
     "children": [
       "drawer",
       "logo#mobile",
-      "login",
+      "flex-layout.col#points-mobile",
       "minicart.v2"
     ],
     "props": {
@@ -190,6 +196,7 @@
   },
   "menu#drawer": {
     "children": [
+      "menu-item#login",
       "menu-item#category-shirts",
       "menu-item#category-bags",
       "menu-item#category-cups",
@@ -218,7 +225,7 @@
   },
   "flex-layout.col#points-mobile": {
     "children": [
-      "rich-text#points"
+      "rich-text#pointsMobile"
     ],
     "props": {
       "blockClass": "my-points-mobile"
