@@ -1,5 +1,11 @@
 {
   "store.product": {
+    "children": ["flex-layout.row#product-page"]
+  },
+  "flex-layout.row#product-page": {
+    "children": ["flex-layout.col#prouct-page"]
+  },
+  "flex-layout.col#prouct-page": {
     "children": [
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability",
@@ -9,7 +15,11 @@
       "shelf.relatedProducts",
       "product-reviews",
       "product-questions-and-answers"
-    ]
+    ],
+    "props": {
+      "paddingLeft": 6,
+      "paddingRight": 6
+    }
   },
   "flex-layout.row#specifications-title": {
     "children": ["rich-text#specifications"]
