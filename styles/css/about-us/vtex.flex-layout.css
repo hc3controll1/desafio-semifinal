@@ -1,0 +1,10 @@
+@media screen and (max-width: 810px) {
+  .flexCol--col-squad-1,
+  .flexCol--col-squad-2,
+  .flexCol--col-squad-3,
+  .flexCol--col-squad-4,
+  .flexCol--col-squad-5,
+  .flexCol--col-squad-6 {
+    padding-left: 1rem;
+  }
+}

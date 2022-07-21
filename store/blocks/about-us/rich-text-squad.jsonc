@@ -1,129 +1,104 @@
 {
     "rich-text#dev1": {
         "props": {
-          "blockClass": "text-dev-1",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "text": " #### Cristiane dos Santos Costa",
-          "font": "t-heading-5"
-      }
-    },
-
-    "rich-text#dev-description-1": {
-        "props":{
-            "blockClass": "desc-dev-1",
-            "text": "*Neurocientista pela UFABC com foco em \n pesquisa acadêmica em biologia. \nDesenvolvedora Web Front-end.*",
-            "textAlignment": "left",
-            "textPosition": "left",
-            "font": "t-heading-10",
-            "url":"https://www.linkedin.com/in/cristianedsc/"
-            //https://www.linkedin.com/in/cristianedsc/
+            "blockClass": "text-dev-1",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": " #### **Cristiane Santos**",
+            "font": "t-heading-5"
         }
     },
-
+    "rich-text#dev-description-1": {
+        "props": {
+            "blockClass": "desc-dev-1",
+            "text": "*Neurocientista pela UFABC.\nAtualmente em transição de carreira.\nDesenvolvedora Web Front-end.*",
+            "font": "t-heading-10",
+            "url": "https://www.linkedin.com/in/cristianedsc/"
+        }
+    },
     "rich-text#dev2": {
         "props": {
-          "blockClass": "text-dev-2",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "text": " #### Rodolfo da Silva",
-          "font": "t-heading-5" 
+            "blockClass": "text-dev-2",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": " #### **Rodolfo da Silva**",
+            "font": "t-heading-5"
         }
     },
-
     "rich-text#dev-description-2": {
-        "props":{
+        "props": {
             "blockClass": "desc-dev-2",
-            "text": "*Administrador de Empresas pela Faculdade Fafire. \nDesenvolvedor Web Front-end.*",
-            "textAlignment": "left",
-            "textPosition": "left",
-            "font": "t-heading-10"
-            //https://www.linkedin.com/in/rodolfo-silva-14573b117/
+            "text": "*Administrador de Empresas pela Faculdade Fafire.\nDesenvolvedor Web Front-end.*",
+            "font": "t-heading-10",
+            "url": "https://www.linkedin.com/in/rodolfo-silva-14573b117/"
         }
     },
-
     "rich-text#dev3": {
         "props": {
-          "blockClass": "text-dev-3",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "text": " ##### Flávio Gabriel de Andrade Viana",
-          "font": "t-heading-5"
+            "blockClass": "text-dev-3",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": " #### **Flávio Viana**",
+            "font": "t-heading-5"
         }
     },
-
     "rich-text#dev-description-3": {
-        "props":{
+        "props": {
             "blockClass": "desc-dev-3",
-            "text": "*Bacharelando em Sistemas de Informação. \nDesenvolvedor Web Front-end.*",
-            "textAlignment": "left",
-            "textPosition": "left",
-            "font": "t-heading-10"
-            //https://www.linkedin.com/in/fl%C3%A1vioviana113/
+            "text": "*Bacharelando em Sistemas de Informação.\nDesenvolvedor Web Front-end.*",
+            "font": "t-heading-10",
+            "url": "https://www.linkedin.com/in/fl%C3%A1vioviana113/"
         }
     },
-
     "rich-text#dev4": {
         "props": {
-          "blockClass": "text-dev-4",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "text": " #### Leona Vieira Evangelista",
-          "font": "t-heading-5"
+            "blockClass": "text-dev-4",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": " #### **Leona Vieira Evangelista**",
+            "font": "t-heading-5"
         }
     },
-
     "rich-text#dev-description-4": {
-        "props":{
+        "props": {
             "blockClass": "desc-dev-4",
-            "text": "*Profissional em Educação Física.\n Bacharelanda em S.I pela UEG. \nDesenvolvedora Web Front-end.*",
-            "textAlignment": "left",
-            "textPosition": "left",
-            "font": "t-heading-10"
-            //https://www.linkedin.com/in/leona-evangelista/
+            "text": "*Profissional em Educação Física.\nBacharelanda em S.I pela UEG.\nDesenvolvedora Web Front-end.*",
+            "font": "t-heading-10",
+            "url": "https://www.linkedin.com/in/leona-evangelista/"
         }
     },
-    
     "rich-text#dev5": {
         "props": {
-          "blockClass": "text-dev-5",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "text": " #### Victor Hugo Fonseca",
-          "font": "t-heading-5"
+            "blockClass": "text-dev-5",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": " #### **Victor Hugo Fonseca**",
+            "font": "t-heading-5"
         }
     },
-
     "rich-text#dev-description-5": {
-        "props":{
+        "props": {
             "blockClass": "desc-dev-5",
-            "text": "*Engenheiro mecânico com ênfase em engenharia mecatrônica*. \n *Desenvolvedor Web Front-end.*",
-            "textAlignment": "left",
-            "textPosition": "left",
-            "font": "t-heading-10"
-            //https://www.linkedin.com/in/victorhugommf/
+            "text": "*Engenheiro mecânico com ênfase em engenharia mecatrônica*.\n*Desenvolvedor Web Front-end.*",
+            "font": "t-heading-10",
+            "url": "https://www.linkedin.com/in/victorhugommf/"
         }
     },
-
     "rich-text#dev6": {
         "props": {
-          "blockClass": "text-dev-6",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "text": " #### Walter Souza", 
-          "font": "t-heading-5"
+            "blockClass": "text-dev-6",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": " #### **Walter Souza**",
+            "font": "t-heading-5"
         }
     },
-
     "rich-text#dev-description-6": {
-        "props":{
+        "props": {
             "blockClass": "desc-dev-6",
-            "text": "*Gerente Administrativo*. \n *Desenvolvedor de Software.* \n *Desenvolvedor Web Front-End.*",
-            "textAlignment": "left",
-            "textPosition": "left",
-            "font": "t-heading-10"
-            //https://www.linkedin.com/in/waltersasouza/
+            "text": "*Gerente Administrativo*.\n*Desenvolvedor de Software.*\n*Desenvolvedor Web Front-End.*",
+            "font": "t-heading-10",
+            "url": "https://www.linkedin.com/in/waltersasouza/"
         }
     }
-    
 }

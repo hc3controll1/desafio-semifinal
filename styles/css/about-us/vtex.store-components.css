@@ -1,35 +1,37 @@
-.infoCardContainer--info-card-about-us-1-desktop{
+.infoCardContainer--info-card-about-us-1-desktop {
     height: 70vh;
     width: 100%;
-    background-color: rgb(247, 247, 246);
+    background-color: #f7f7f6;
     margin-top: 0;
     padding-top: 0;
     padding-left: 0;
     padding-right: 0;
 }
 
-.headingLevel2--info-card-about-us-1-desktop {
-   color: #64a3d6;
+.heading--info-card-about-us-1-desktop,
+.heading--info-card-about-us-1-mobile {
+    color: #2196F3;
+    text-shadow: 1px 1px 1px #363535;
 }
 
 .headingLevel2--info-card-about-us-2-desktop {
-   color: #f71e80;
+    color: #f71e80;
 }
 
 .headingLevel6--info-card-about-us-1-desktop,
 .headingLevel6--info-card-about-us-2-desktop {
     padding-left: 2vw;
-    
+
 }
 
 .infoCardImage--info-card-about-us-1-desktop {
     width: 150vw;
     height: 60vh;
     margin-top: -5vh;
-    
+
 }
 
-.infoCardTextContainer--info-card-about-us-1-desktop{
+.infoCardTextContainer--info-card-about-us-1-desktop {
     width: 50%
 }
 
@@ -39,13 +41,13 @@
 .flexRowContent--container-squad4,
 .flexRowContent--container-squad5,
 .flexRowContent--container-squad6,
-.flexRowContent--container-squad7{
-  margin: 0 auto;
-  padding: 0 auto;
+.flexRowContent--container-squad7 {
+    margin: 0 auto;
+    padding: 0 auto;
 
 }
 
-.flexCol--col-squad-1{
+.flexCol--col-squad-1 {
     padding-left: -5vw;
 }
 
@@ -57,6 +59,32 @@
 .imageElement--img-dev-6,
 .imageElement--img-dev-7 {
     width: 300px;
-    height: 300px
+    height: 300px;
+    box-shadow: -40px 20px #2196F3;
 }
 
+.infoCardTextContainer--info-card-about-us-1-mobile {
+    padding: 0 2rem;
+}
+
+@media screen and (max-width: 810px) {
+
+    .imageElement--img-dev-1,
+    .imageElement--img-dev-2,
+    .imageElement--img-dev-3,
+    .imageElement--img-dev-4,
+    .imageElement--img-dev-5,
+    .imageElement--img-dev-6,
+    .imageElement--img-dev-7 {
+        box-shadow: -30px 15px #2196F3;
+    }
+
+    .flexCol--col-squad-1,
+    .flexCol--col-squad-2,
+    .flexCol--col-squad-3,
+    .flexCol--col-squad-4,
+    .flexCol--col-squad-5,
+    .flexCol--col-squad-6 {
+        align-items: flex-end;
+    }
+}

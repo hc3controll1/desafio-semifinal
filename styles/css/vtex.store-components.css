@@ -9,7 +9,7 @@
 .infoCardContainer--info-card-home {
   max-width: 1520px;
   margin: 0 auto;
-  background-color: #d3e4f2;
+  background-color: #f7f7f6;
   padding: 0px;
 }
 
@@ -74,14 +74,6 @@
     font-size: 40px;
   }
 
-  .infoCardContainer--info-card-home .infoCardTextContainer {
-    width: 30%;
-  }
-
-  .infoCardContainer--info-card-home .infoCardImageContainer {
-    width: 70%;
-  }
-
   .imageElement--storePrint {
     margin-bottom: 0px;
     max-height: 600px;
@@ -126,12 +118,11 @@
   padding: 0 2rem;
 }
 
-.heading--info-card-contact,
-.heading--info-card-about-us-1-desktop {
+.heading--info-card-contact {
   color: #2196F3;
   text-shadow: 1px 1px 1px #363535;
 }
 
-.infoCardImageContainer--info-card-home {
+.infoCardImageContainer--info-card-contact {
   padding: 0;
 }
