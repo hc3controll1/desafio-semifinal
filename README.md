@@ -18,15 +18,25 @@ Um parágrafo da descrição do projeto vai aqui
 
 ### Frontend
 
-Notion: [Acesse Aqui](https://nonstop-iguanadon-22e.notion.site/Ideias-para-o-Front-End-54ec6c6bc8e44462835b2df6817df0f0)
-Benchmark: [Frontend(https://nonstop-iguanadon-22e.notion.site/Benchmark-Front-0d343129b7bb4d1d97a099e4fe0636bb) [Sistema de Pontos] (https://nonstop-iguanadon-22e.notion.site/Benchmark-Sistemas-de-Pontos-d5f68f137b764b71b75bbaa0292c33ad)
-Figma: [Acesse Aqui](https://www.figma.com/file/6aahFva4lbFnXsdmOMlzQE/Projeto-hiring-coders)
+* Notion: [Acesse Aqui](https://nonstop-iguanadon-22e.notion.site/Ideias-para-o-Front-End-54ec6c6bc8e44462835b2df6817df0f0)
+* Benchmark: [Frontend(https://nonstop-iguanadon-22e.notion.site/Benchmark-Front-0d343129b7bb4d1d97a099e4fe0636bb)
+* Benchmark [Sistema de Pontos](https://nonstop-iguanadon-22e.notion.site/Benchmark-Sistemas-de-Pontos-d5f68f137b764b71b75bbaa0292c33ad)
+* Figma: [Acesse Aqui](https://www.figma.com/file/6aahFva4lbFnXsdmOMlzQE/Projeto-hiring-coders)
 
 ### Backend
 
-Notion: [Acesse Aqui](https://nonstop-iguanadon-22e.notion.site/Ideias-para-Back-End-e69803bf11484699976015dd7d7591aa)
+* Notion: [Acesse Aqui](https://nonstop-iguanadon-22e.notion.site/Ideias-para-Back-End-e69803bf11484699976015dd7d7591aa)
+
+
+## APIs
+
+* 1
 https://gs9vut5z2m.execute-api.sa-east-1.amazonaws.com/points GET
+
+* 2
 https://gs9vut5z2m.execute-api.sa-east-1.amazonaws.com/points POST
+
+* 3
 https://gs9vut5z2m.execute-api.sa-east-1.amazonaws.com/points/:{id} GET  
 
 ```
