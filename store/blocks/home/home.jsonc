@@ -101,11 +101,11 @@
       "id": "info-card-home",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://i.ibb.co/7NfsmMk/ginastica-musculacao.jpg",
-      "headline": "Liquidação",
-      "subhead": "Kits de fitness para treinar em casa",
+      "imageUrl": "https://i.ibb.co/syk7r17/caneca-de-cafe.jpg",
+      "headline": "Canecas em Promoção",
+      "subhead": "Com a caneca certa o cafezinho fica até mais gostoso!",
       "callToActionText": "CONFIRA",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/canecas",
       "blockClass": "info-card-home",
       "textAlignment": "center"
     }

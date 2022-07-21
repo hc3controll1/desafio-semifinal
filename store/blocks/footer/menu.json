@@ -93,7 +93,6 @@
     },
     "children": [
       "menu-item#help",
-      "menu-item#faq",
       "menu-item#customer-service"
     ]
   },
@@ -126,18 +125,89 @@
       }
     }
   },
-  "menu-item#faq": {
+  "vtex.menu@2.x:menu#socialnetwork": {
     "props": {
-      "id": "menu-item-faq",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#network",
+      "menu-item#facebook",
+      "menu-item#instagram",
+      "menu-item#twitter",
+      "menu-item#youtube"
+    ]
+  },
+  "menu-item#network": {
+    "props": {
+      "id": "menu-network",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menuItemHeaderFooter",
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "REDES SOCIAIS",
+        "text": "REDES SOCIAIS"
+      }
+    }
+  },
+  "menu-item#facebook": {
+    "props": {
+      "id": "menu-facebook",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/faq",
+        "href": "/contact-us",
         "noFollow": true,
-        "tagTitle": "Dúvidas frequentes",
-        "text": "Dúvidas frequentes"
+        "tagTitle": "Facebook",
+        "text": "Facebook"
+      }
+    }
+  },
+  "menu-item#instagram": {
+    "props": {
+      "id": "menu-instagram",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Instagram",
+        "text": "Instagram"
+      }
+    }
+  },
+  "menu-item#twitter": {
+    "props": {
+      "id": "menu-twitter",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Twitter",
+        "text": "Twitter"
+      }
+    }
+  },
+  "menu-item#youtube": {
+    "props": {
+      "id": "menu-youtube",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "YouTube",
+        "text": "YouTube"
       }
     }
   },
@@ -201,7 +271,6 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#faq",
       "menu-item#customer-service"
     ]
   },

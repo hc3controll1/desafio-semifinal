@@ -30,42 +30,42 @@
   "image#brand1": {
     "props": {
       "maxHeight": 150,
-      "src": "https://i.ibb.co/3Tpr1vD/atmosphere.png",
+      "src": "assets/atmosphere.png",
       "alt": "logotipo marca Atmosphere"
     }
   },
   "image#brand2": {
     "props": {
       "maxHeight": 150,
-      "src": "https://i.ibb.co/n390W2T/bitsized.png",
+      "src": "assets/bitsized.png",
       "alt": "logotipo marca Bitsized"
     }
   },
   "image#brand3": {
     "props": {
       "maxHeight": 150,
-      "src": "https://i.ibb.co/KVJpwjx/controll.png",
+      "src": "assets/controll.png",
       "alt": "logotipo marca Controll"
     }
   },
   "image#brand4": {
     "props": {
       "maxHeight": 150,
-      "src": "https://i.ibb.co/QJbLfWX/speedware.png",
-      "alt": "https://i.ibb.co/t4MdQds/speedware.png"
+      "src": "assets/speedware.png",
+      "alt": "Logotipo marca Speedware"
     }
   },
   "image#brand5": {
     "props": {
       "maxHeight": 150,
-      "src": "https://i.ibb.co/t4MdQds/dreamscape.png",
+      "src": "assets/dreamscape.png",
       "alt": "logotipo marca Dreamscape"
     }
   },
   "image#brand6": {
     "props": {
       "maxHeight": 150,
-      "src": "https://i.ibb.co/zSWZQb6/travellog.png",
+      "src": "assets/travellog.png",
       "alt": "logotipo marca Dreamscape"
     }
   }
