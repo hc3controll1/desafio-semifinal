@@ -1,2 +1,58 @@
-# desafio-semifinal
-Desafio da Semifinal da Jornada Hiring Coders #3
+# Loja da Maria
+
+Um parágrafo da descrição do projeto vai aqui
+
+## 🚀 Começando
+
+
+### 📋 Recomendações
+
+
+``` 
+1. Fazer login na workspace Control <https://controll.myvtex.com/admin> para a correta visualização das categorias de produtos.
+
+2. Utilizar o Insomnia ou o Postman para validação das API's.
+```
+
+## 📦 Desenvolvimento
+
+### Frontend
+
+Notion: [Acesse Aqui](https://nonstop-iguanadon-22e.notion.site/Ideias-para-o-Front-End-54ec6c6bc8e44462835b2df6817df0f0)
+Benchmark: [Frontend(https://nonstop-iguanadon-22e.notion.site/Benchmark-Front-0d343129b7bb4d1d97a099e4fe0636bb) [Sistema de Pontos] (https://nonstop-iguanadon-22e.notion.site/Benchmark-Sistemas-de-Pontos-d5f68f137b764b71b75bbaa0292c33ad)
+Figma: [Acesse Aqui](https://www.figma.com/file/6aahFva4lbFnXsdmOMlzQE/Projeto-hiring-coders)
+
+### Backend
+
+Notion: [Acesse Aqui](https://nonstop-iguanadon-22e.notion.site/Ideias-para-Back-End-e69803bf11484699976015dd7d7591aa)
+https://gs9vut5z2m.execute-api.sa-east-1.amazonaws.com/points GET
+https://gs9vut5z2m.execute-api.sa-east-1.amazonaws.com/points POST
+https://gs9vut5z2m.execute-api.sa-east-1.amazonaws.com/points/:{id} GET  
+
+```
+"userID": "user02",
+	"points": "45"
+```
+
+## 🛠️ Construído com
+
+* [VTEXIO](https://developers.vtex.com/vtex-developer-docs/docs/welcome) - O framework web usado
+* [AWS](https://aws.amazon.com/) - Para construção do Backend
+
+
+## ✒️ Autores
+
+* **Cristiane Santos** - *Frontend e Documentação* - [Cristiane](https://www.linkedin.com/in/cristianedsc/)
+* **Flávio Viana** - *Prototipação e Frontend* - [Flávio](https://www.linkedin.com/in/fl%C3%A1vioviana113/)
+* **Leona Vieira Evangelista** - *Frontend e Documentação* - [Leona](https://www.linkedin.com/in/leona-evangelista/)
+* **Rodolfo da Silva** - *Backend* - [Rodolfo](https://www.linkedin.com/in/rodolfo-silva-14573b117/)
+* **Victor Hugo Fonseca** - *Frontend* - [Victor](https://www.linkedin.com/in/victorhugommf/)
+* **Walter Souza** - *Prototipação e Backend* - [Walter](https://www.linkedin.com/in/waltersasouza/)
+
+
+## 📄 Licença
+
+Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+
+
+
