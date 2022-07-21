@@ -218,7 +218,8 @@
     "children": [
       "menu-item#info-mobile",
       "menu-item#account-mobile",
-      "menu-item#help-mobile"
+      "menu-item#help-mobile",
+      "menu-item#network-mobile"
     ]
   },
   "menu-item#info-mobile": {
@@ -297,6 +298,33 @@
     "children": [
       "menu-item#my-account",
       "menu-item#my-orders"
+    ]
+  },
+  "menu-item#network-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "REDES SOCIAIS",
+        "text": "REDES SOCIAIS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#network"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#network": {
+    "children": [
+      "vtex.menu@2.x:menu#network-accordion"
+    ]
+  },
+  "vtex.menu@2.x:menu#network-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#facebook",
+      "menu-item#instagram",
+      "menu-item#twitter",
+      "menu-item#youtube"
     ]
   }
 }

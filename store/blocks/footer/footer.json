@@ -149,7 +149,6 @@
   },
   "flex-layout.row#2-footer-mobile": {
     "children": [
-      "flex-layout.col#mobileNetwork",
       "flex-layout.col#paymentMobile",
       "flex-layout.row#mobileSecure",
       "flex-layout.col#poweredByMobile"
@@ -157,14 +156,6 @@
     "props": {
       "horizontalAlign": "between",
       "colSizing": "auto"
-    }
-  },
-  "flex-layout.col#mobileNetwork": {
-    "children": [
-      "social-networks"
-    ],
-    "props": {
-      "horizontalAlign": "center"
     }
   },
   "flex-layout.col#paymentMobile": {

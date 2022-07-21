@@ -26,7 +26,7 @@
       "textPosition": "left",
       "textAlignment": "center",
       "textMode": "rich-text",
-      "imageUrl": "https://i.ibb.co/8bNxz9j/bg-about-compressed.jpg",
+      "imageUrl": "assets/mulher-quem-somos.jpg",
       "headline": " ## Bem-vindo à Loja da Maria",
       "subhead": "Você está na **Loja da Maria**, o melhor lugar para encontrar **produtos diversos** e com **qualidade inigualável**.\n\nVocê sabia que nós trabalhamos apenas com os fornecedores mais confiáveis do mercado? Isso significa que todos os produtos que você encontrar no nosso site certamente serão da mais alta qualidade.\n\nQuer saber quem faz parte da nossa família? **Vá em frente!**",
       "callToActionMode": "none"
@@ -67,7 +67,7 @@
       "textPosition": "left",
       "textAlignment": "center",
       "textMode": "rich-text",
-      "imageUrl": "https://i.ibb.co/mRvndkr/bg-about-compressed.jpg",
+      "imageUrl": "assets/mulher-quem-somos-mobile.jpg",
       "headline": " ### Bem-vindo à Loja da Maria!",
       "subhead": "Você está na **Loja da Maria**, o melhor lugar para encontrar **produtos diversos** e com **qualidade inigualável**.\n\nVocê sabia que nós trabalhamos apenas com os fornecedores mais confiáveis do mercado? Isso significa que todos os produtos que você encontrar no nosso site certamente serão da mais alta qualidade.\n\nQuer saber quem faz parte da nossa família? **Vá em frente!**",
       "callToActionMode": "none"
