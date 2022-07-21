@@ -39,7 +39,7 @@
       "slider-layout#home-images"
     ],
     "props": {
-      "height": 570, 
+      "height": 750,
       "preload": true,
       "images": [
         {
@@ -80,6 +80,11 @@
         "desktop": 1,
         "tablet": 1,
         "phone": 1
+      },
+      "slideTransition": {
+        "speed": 1500,
+        "delay": 0,
+        "timing": "ease-in"
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",

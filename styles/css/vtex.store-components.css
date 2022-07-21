@@ -114,7 +114,8 @@
 }
 
 /* Cris inseriu daqui pra baixo*/
-.wrapper--info-card-contact, .wrapper--info-card-about-us-1-desktop {
+.wrapper--info-card-contact,
+.wrapper--info-card-about-us-1-desktop {
   padding: 0 2rem;
 }
 
@@ -125,4 +126,15 @@
 
 .infoCardImageContainer--info-card-contact {
   padding: 0;
+}
+
+.logoImage--logoClass {
+  margin: 8px 0 0 0;
+}
+
+@media only screen and (max-width: 425px) {
+  .searchBarContainer {
+    padding-top: 0 !important;
+  }
+
 }

@@ -3,6 +3,11 @@
   padding: 0 0.5rem;
 }
 
+.flexCol--productRating {
+  display: none;
+}
+
+
 
 @media screen and (min-width: 40em) {
 
@@ -150,4 +155,16 @@
 
 .flexRowContent--desktopFooter-2 {
   align-items: baseline;
+}
+
+
+@media screen and (max-width: 425px) {
+  .flexCol--colSectionSlider {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .flexRowContent--main-header-mobile {
+    padding-bottom: 0 !important;
+  }
 }

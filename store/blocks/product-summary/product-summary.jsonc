@@ -3,7 +3,6 @@
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
-      "flex-layout.col#productRating",
       "product-summary-space",
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
@@ -15,9 +14,10 @@
     "props": {
       "blockClass": "productRating"
     },
-    "children": ["product-rating-inline"]
+    "children": [
+      "product-rating-inline"
+    ]
   },
-
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image#shelf",
@@ -25,7 +25,6 @@
       "modal-trigger#quickview" // Check quickview.jsonc
     ]
   },
-
   "product-summary-image#shelf": {
     "props": {
       "showBadge": false,
@@ -33,25 +32,27 @@
       "maxHeight": 300
     }
   },
-
   "vtex.product-highlights@2.x:product-highlights#collection": {
     "props": {
       "type": "collection"
     },
-    "children": ["product-highlight-wrapper"]
+    "children": [
+      "product-highlight-wrapper"
+    ]
   },
   "product-highlight-wrapper": {
     "props": {
       "blockClass": "collection"
     },
-    "children": ["product-highlight-text"]
+    "children": [
+      "product-highlight-text"
+    ]
   },
   "product-highlight-text": {
     "props": {
       "message": "{highlightName}"
     }
   },
-
   "product-list-price#summary": {
     "props": {
       "blockClass": "summary"
