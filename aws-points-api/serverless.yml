@@ -1,0 +1,59 @@
+service: aws-points-api
+frameworkVersion: "2"
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  lambdaHashingVersion: 20201221
+  region: sa-east-1
+
+  iam:
+    role:
+      statements:
+        - Effect: Allow
+          Action:
+            - "dynamodb:PutItem"
+            - "dynamodb:GetItem"
+            - "dynamodb:DeleteItem"
+            - "dynamodb:Scan"
+          Resource:
+            - { "Fn::GetAtt": ["PointsTable", "Arn"] }
+
+functions:
+  addPoints:
+    handler: src/handlers.addPoints
+    events:
+      - httpApi:
+          path: /points
+          method: post
+  getPointsUser:
+    handler: src/handlers.getPointsUser
+    events:
+      - httpApi:
+          path: /points/{id}
+          method: get
+  listPoints:
+    handler: src/handlers.listPoints
+    events:
+      - httpApi:
+          path: /points
+          method: get
+
+plugins:
+  - serverless-plugin-typescript
+
+resources:
+  Resources:
+    PointsTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: PointsTable
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+        AttributeDefinitions:
+          - AttributeName: userID
+            AttributeType: S
+        KeySchema:
+          - AttributeName: userID
+            KeyType: HASH

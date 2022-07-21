@@ -1,0 +1,20 @@
+{
+  "memory": 256,
+  "ttl": 10,
+  "timeout": 2,
+  "minReplicas": 2,
+  "maxReplicas": 4,
+  "workers": 1,
+  "events": {
+    "someStates": {
+      "sender": "vtex.orders-broadcast",
+      "topics": ["cancel","payment-approved"]
+    }
+  },
+  "routes": {
+    "sendingPoints": {
+      "path": "/_v/sending_points",
+      "public": true
+    }
+  }
+}
