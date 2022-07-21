@@ -114,6 +114,7 @@
 /*Código inserido por Victor*/
 .flexRow--menu-row {
   background-color: #F7F7F7;
+  border-bottom: 1px solid #a9a9a938;
 }
 
 .flexRowContent--userWidgetRow {
@@ -141,4 +142,12 @@
   align-items: baseline;
   margin: 0 auto;
   max-width: 90%;
+}
+
+.flexRowContent--secureRowBadges {
+  justify-content: center !important;
+}
+
+.flexRowContent--desktopFooter-2 {
+  align-items: baseline;
 }

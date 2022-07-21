@@ -21,7 +21,7 @@
       "vtex.menu@2.x:menu#info",
       "vtex.menu@2.x:menu#account",
       "vtex.menu@2.x:menu#footer-help",
-      "flex-layout.col#network"
+      "vtex.menu@2.x:menu#socialnetwork"
     ],
     "props": {
       "blockClass": "menu-row",
@@ -29,36 +29,14 @@
       "paddingTop": 7,
       "paddingBottom": 3,
       "colSizing": "auto",
-      "verticalAlign":"center"
-    }
-  },
-  "flex-layout.col#network": {
-    "children": [
-      "rich-text#network",
-      "social-networks",
-      "rich-text#payment",
-      "accepted-payment-methods"
-    ],
-    "props": {
-      "horizontalAlign": "right"
-    }
-  },
-  "rich-text#network": {
-    "props": {
-      "text": "**REDES SOCIAIS**",
-      "blockClass": "networkFooter"
-    }
-  },
-  "rich-text#payment": {
-    "props": {
-      "text": "**PAGAMENTO**",
-      "blockClass": "networkFooter"
+      "verticalAlign": "center"
     }
   },
   "flex-layout.row#footer-2-desktop": {
     "children": [
-      "flex-layout.row#secure",
-      "powered-by"
+      "flex-layout.col#payment",
+      "flex-layout.col#secure",
+      "flex-layout.col#poweredBy"
     ],
     "props": {
       "horizontalAlign": "center",
@@ -72,21 +50,56 @@
       "blockClass": "desktopFooter-2"
     }
   },
+  "flex-layout.col#payment": {
+    "children": [
+      "rich-text#payment",
+      "accepted-payment-methods"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "top"
+    }
+  },
+  "rich-text#payment": {
+    "props": {
+      "text": "**FORMAS DE PAGAMENTO**",
+      "blockClass": "networkFooter"
+    }
+  },
   "accepted-payment-methods": {
     "props": {
       "paymentMethods": [
-        "MasterCard",
-        "Visa",
-        "Diners Club"
+        "mastercard",
+        "visa",
+        "diners club"
       ],
       "showIColor": true
+    }
+  },
+  "flex-layout.col#secure": {
+    "children": [
+      "rich-text#secure",
+      "flex-layout.row#secure"
+    ],
+    "props": {
+      "verticalAlign": "top"
+    }
+  },
+  "rich-text#secure": {
+    "props": {
+      "text": "**TRANSAÇÃO SEGURA**"
     }
   },
   "flex-layout.row#secure": {
     "children": [
       "image#1",
       "image#2"
-    ]
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "colSizing": "auto",
+      "blockClass": "secureRowBadges"
+    }
   },
   "image#1": {
     "props": {
@@ -100,28 +113,6 @@
       "src": "https://cdn-icons-png.flaticon.com/512/1224/1224138.png?w=826",
       "height": 35,
       "alt": "icone de cadeado cinza fechado"
-    }
-  },
-  "social-networks": {
-    "props": {
-      "socialNetworks": [
-        {
-          "name": "Facebook",
-          "url": "https://web.facebook.com/Loja-da-Maria-109221925198915"
-        },
-        {
-          "name": "Instagram",
-          "url": "https://www.instagram.com/loja.da.maria.ofc/"
-        },
-        {
-          "name": "Twitter",
-          "url": "https://twitter.com/LojaDaMariaOfc"
-        },
-        {
-          "name": "Youtube",
-          "url": "https://youtube.com/channel/UCdii0BjUBS6RMR9mkjRBhvA"
-        }
-      ]
     }
   },
   "flex-layout.row#footer-3-desktop": {
@@ -197,12 +188,19 @@
   },
   "flex-layout.col#poweredBy": {
     "children": [
+      "rich-text#poweredBy",
       "powered-by"
     ],
     "props": {
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "verticalAlign": "top"
+    }
+  },
+  "rich-text#poweredBy": {
+    "props": {
+      "text": "**TECNOLOGIA**"
     }
   },
   "flex-layout.row#3-footer-mobile": {
@@ -215,7 +213,7 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "© 2022 LOJA DA MARIA TODOS OS DIREITOS RESERVADOS. Loja da Maria ME – CNPJ 00.000.000/0000-00. Uma Rua, n.º 0 – Um Bairro – CEP. 00000-000 – Uma Cidade/ESTADO\n[Política de Cookies](#) | [Política de Privacidade](#)",
-      "blockClass": "footer"
+      "blockClass": "footer-rich-text"
     }
   }
 }

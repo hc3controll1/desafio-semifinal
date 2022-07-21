@@ -23,13 +23,13 @@
       "preload": true,
       "images": [
         {
-          "image": "https://i.ibb.co/Lp6bgCh/bolas-de-tenis-2.jpg"
+          "image": "https://i.ibb.co/9vy3CRq/banner-1-desk.png"
         },
         {
-          "image": "https://i.ibb.co/k3WmMfk/pessoas-jogando-volei-praia-2.jpg"
+          "image": "https://i.ibb.co/YL0KNmm/banner-2-desk-compressed.jpg"
         },
         {
-          "image": "https://i.ibb.co/RHGGBgc/bola-futebol-gramado-2.jpg"
+          "image": "https://i.ibb.co/RgNpJVk/banner-3-desk-compressed.jpg"
         }
       ]
     }
@@ -39,17 +39,17 @@
       "slider-layout#home-images"
     ],
     "props": {
-      "height": 570,
+      "height": 570, 
       "preload": true,
       "images": [
         {
-          "image": "https://i.ibb.co/vPSHMH0/bolas-de-tenis-tablet-2.jpg"
+          "image": "https://i.ibb.co/GRcTr5w/banner-1-tab.png"
         },
         {
-          "image": "https://i.ibb.co/9GpHJKz/pessoas-jogando-volei-praia-tablet-2.jpg"
+          "image": "https://i.ibb.co/hBqMLyr/banner-2-tab-compressed.jpg"
         },
         {
-          "image": "https://i.ibb.co/cLP9X66/bola-futebol-gramado-tablet-2.jpg"
+          "image": "https://i.ibb.co/FD60HRp/banner-3-tab-compressed.jpg"
         }
       ]
     }
@@ -63,13 +63,13 @@
       "preload": true,
       "images": [
         {
-          "image": "https://i.ibb.co/nPk2rdr/bolas-de-tenis-mobile-2.jpg"
+          "image": "https://i.ibb.co/gRmFMZb/banner-1-cel-compressed.jpg"
         },
         {
-          "image": "https://i.ibb.co/mcVyrb1/pessoas-jogando-volei-praia-mobile-2.jpg"
+          "image": "https://i.ibb.co/FqZ8TkN/banner-2-cel-compressed.jpg"
         },
         {
-          "image": "https://i.ibb.co/JcfgxkH/bola-futebol-gramado-mobile-2.jpg"
+          "image": "https://i.ibb.co/1fnt9kb/banner-3-cel-compressed.jpg"
         }
       ]
     }
