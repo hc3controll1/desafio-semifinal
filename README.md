@@ -31,17 +31,17 @@ Um parágrafo da descrição do projeto vai aqui
 ## APIs
 
 * 1
-https://gs9vut5z2m.execute-api.sa-east-1.amazonaws.com/points GET
+GET: https://gs9vut5z2m.execute-api.sa-east-1.amazonaws.com/points // lista todos os usuarios cadastrados
 
 * 2
-https://gs9vut5z2m.execute-api.sa-east-1.amazonaws.com/points POST
+POST: https://gs9vut5z2m.execute-api.sa-east-1.amazonaws.com/points // salva os dados {userID, points}
 
 * 3
-https://gs9vut5z2m.execute-api.sa-east-1.amazonaws.com/points/:{id} GET  
+GET: https://gs9vut5z2m.execute-api.sa-east-1.amazonaws.com/points/:{id} // busca um cliente pelo ID
 
 ```
-"userID": "user02",
-	"points": "45"
+"userID": "string",
+"points": "number"
 ```
 
 ## 🛠️ Construído com
